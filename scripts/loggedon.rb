@@ -1,3 +1,5 @@
+# Author - mubix
+# http://www.room362.com/blog/2011/9/17/who-is-logged-in-a-quick-way-to-pick-your-targets.html
 users = []
 client.sys.process.each_process do |x|
         users << x["user"]
