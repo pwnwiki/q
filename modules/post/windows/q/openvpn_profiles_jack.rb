@@ -1,4 +1,4 @@
-# $Id: keepass_jacker.rb 2012-05-01 rapid7 $
+# $Id$
 
 ##
 # This file is part of the Metasploit Framework and may be subject to
@@ -23,7 +23,7 @@ class Metasploit3 < Msf::Post
 				},
 				'License'       => MSF_LICENSE,
 				'Author'        => [ 'balgan <balgan[at]ptcoresec.eu>'],
-				'Version'       => '$Revision: 3195e713 $',
+				'Version'       => '$Revision$',
 				'Platform'      => [ 'windows' ],
 				'SessionTypes'  => [ 'meterpreter' ]
 			))
@@ -50,7 +50,7 @@ class Metasploit3 < Msf::Post
 				print_error("Path seems invalid: #{dir}")
 				return nil
 			end
-			
+
 		end
 	end
 
