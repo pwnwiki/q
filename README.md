@@ -11,7 +11,13 @@ would not be accepted to the trunk.
 This pack is free (public github and all..) and released without
 warranty or license.
 
+Modules can be put here until they are ready to be submitted to MSF as a
+pull request, or if the author wants to license their module in a certain
+way that prevents it from being in trunk, all are welcome here.
+
+
 Other available Metasploit modules/scripts/plugins:
+===
 
 MetaSSH - SSH session type with routing and more
 -=> https://github.com/dirtyfilthy/metassh
