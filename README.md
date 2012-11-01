@@ -15,6 +15,11 @@ Modules can be put here until they are ready to be submitted to MSF as a
 pull request, or if the author wants to license their module in a certain
 way that prevents it from being in trunk, all are welcome here.
 
+Somthing not working?
+===
+If you can code, submit a pull request, if you can't just descibe the issue
+to the best of your ability in a new "issue", or email me (mubix[at]hak5.org)
+if you don't want to have to create a Github account.
 
 Other available Metasploit modules/scripts/plugins:
 ===
