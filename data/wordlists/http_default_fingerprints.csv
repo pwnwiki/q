@@ -1,0 +1,598 @@
+# fingerprint file for http/default_scanner
+# RE: 0 (none) 1 (yes/basic) 2 (yes/case insensitive) 3 (multiple entries) 4 (yes/basic/negated)
+# server, RE?, Realm, RegExp?, path/file, RE?, title, RE?, body, RE?, Name, Variant Number
+A-B WWW\/,1,NA,0,NA,0,Home Page,1,images\/rockcolor.gif,1,Rockwell Serial Adapter,1
+Acme.Serve,1,NA,0,NA,0,NA,0,NA,0,APC InfraStruXure,1
+ADH-Web,0,NA,0,NA,0,,0,Dedicated Micros,1,Dedicated Micros Camera,1
+Agent-ListenServer-HttpSvr,1,NA,0,NA,0,NA,0,^\<\?xml version\x00href=\x22FrameworkLog.xsl\x22\?\>\<naLog\>,3,McAfee ePolicy Orchestrator,1
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,NA,0,NA,0,HP Printer,2
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,DigitalSender,1,NA,0,HP Scanner,1
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,^\w\w\-\w{1\x2c2}\d{1\x2c3},1,NA,0,Sharp Printer,1
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,INDEX PAGE,1,NA,0,Sharp Printer,1
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,\s-\s\w\w\-\d\d\d\d\w,1,NA,0,Sharp Printer,2
+Agranat-EmWeb\/R5_2_\d,1,NA,0,NA,0,TOP PAGE,1,NA,0,Sharp Printer,3
+Agranat-EmWeb\/R4_02,1,NA,0,NA,0,NA,0,NA,0,3COM Switch,1
+Agranat-EmWeb\/,1,NA,0,NA,0,Module Home Page,1,NA,0,Cabletron Switch,1
+Allegro-Software-RomPager\/2\.10,1,NA,0,/,0,superstack\sii\s,2,NA,0,3COM Switch,2
+Allegro-Software-RomPager\/2,1,- Login,1,NA,0,Protected Object,1,Cyclades,1,Cyclades Out-of-band Management,1
+Allegro-Software-RomPager\/3,1,NA,0,/main.htm,0,Main Page,0,k1.htm,1,Konica Minolta MFD 1,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,^Digi One SP,1,NA,0,Digi One Print Server,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,Cisco Systems,1,(Cisco Catalyst.*Gateway),1,Cisco IP Phone,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,Cisco Systems,1,HREF\=\x22\/gatewaypage\?2,1,Cisco IP Phone,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,Cisco Systems,1,Cisco IP Phone,1,Cisco IP Phone,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,Cisco Systems,1,Cisco Media Termination Point Hardware,1,Cisco Media Termination Point,1
+Allegro-Software-RomPager\/3\.12,1,NA,0,NA,0,Cisco Systems,1,Cisco Conference Bridge Hardware,1,Cisco Media Termination Point,1
+Allegro-Software-RomPager\/3,1,NA,0,NA,0,PortServer TS,1,digi.com,1,Digi Switch,1
+Allegro-Software-RomPager\/4,1,NA,0,NA,0,Network Management Card,0,NA,0,Eaton UPS,1
+Allegro-Software-RomPager\/4,1,NA,0,/login.htm,0,Digi Connect SP,1,NA,0,Digi One Connect SP,1
+Allegro-Software-RomPager\/4,1,NA,0,NA,0,Lexmark,1,NA,0,Lexmark Printer,1
+Allegro-Software-RomPager\/4,1,NA,0,NA,0,Status,0,quantum\.com,1,Quantum PX502 NAS,1
+Allegro-Software-RomPager\/4,1,NA,0,NA,0,Web Management Login,0,brocade_logo_no_text.gif,1,Brocade FastIron Switch,1
+^Allegro-Software-RomPager\/4,1,NA,0,NA,0,,0,Cisco Unified IP Phone,1,Cisco IP Phone,1
+^Allegro-Software-RomPager\/4,1,NA,0,NA,0,LOGIN,1,SIMPLEX\x2c TRUEALARM\x2c \& SafeLINC are used by,1,SimplexGrinnell Alarm,1
+^Allegro-Software-RomPager\/4,1,NA,0,NA,0,iLO 3,0,Hewlett-Packard,1,HP ILOM,3
+Allegro-Software-RomPager,1,NA,0,NA,0,magicolor\s\d{1\x2c4},2,NA,0,Minolta Copier,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Andover Controls Continuum,1,NA,0,Andover Controls Continuum Server,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Andover Continuum,0,NA,0,Andover Controls Continuum Server,1
+Allegro-Software-RomPager,1,NA,0,NA,0,APC Management Web Server,1,NA,0,APC UPS,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Protected Object,1,APC Management Web Server,1,APC UPS,1
+Allegro-Software-RomPager,1,APC Management Card,0,NA,0,Protected Object,1,NA,0,APC UPS,1
+Allegro-Software-RomPager,1,,0,/./applet.html,0,NetBotz Appliances,0,NA,0,APC NetBotz Environmental Monitoring,1
+Allegro-Software-RomPager,1,NA,0,NA,0,AudioCodes,0,NA,0,Audiocodes VOIP (SIP gateway),1
+Allegro-Software-RomPager,1,NA,0,NA,0,Cisco Systems\x2c Inc.,0,NA,0,Cisco IP Phone,1
+Allegro-Software-RomPager,1,NA,0,NA,0,NA,0,\>Cisco\sIP\sPhone,1,Cisco IP Phone,1
+Allegro-Software-RomPager,1,NA,0,NA,0,NA,0,\>Cisco\sUnified\sWireless\sIP\sPhone,1,Cisco IP Phone,1
+Allegro-Software-RomPager,1,NA,0,NA,0,NA,0,\>Cisco\sSystems\x2c\sInc\.\sIP\sPhone,1,Cisco IP Phone,1
+Allegro-Software-RomPager,1,NA,0,NA,0,^DWL-\d+\w+,1,NA,0,D-Link WAP,1
+Allegro-Software-RomPager,1,NA,0,NA,0,remote management unit,2,NA,0,Dell PowerVault Tape Library,1
+Allegro-Software-RomPager,1,NA,0,NA,0,RMU Login,1,NA,0,Dell PowerVault Tape Library,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Digi One,1,NA,0,Digi Switch,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Emerson Network Power,1,NA,0,Emerson Network Power,1
+Allegro-Software-RomPager,1,NA,0,NA,0,^Liebert OpenComms,1,NA,0,Emerson Network Power,1
+Allegro-Software-RomPager,1,NA,0,NA,0,^Banner,1,NA,0,Foundry Network Device,1
+Allegro-Software-RomPager,1,NA,0,NA,0,xerox\s,2,NA,0,Xerox WorkCentre MFD,1
+Allegro-Software-RomPager,1,NA,0,NA,0,Home \- Phaser \d\d\d\d,1,XEROX CORPORATION,1,Xerox Phaser MFD,1
+Allegro-Software-RomPager,1,NA,0,NA,0,\s*Home\s\-\s*,2,copyright\s[\s|\S]*\s20\d+\sxerox\scorp,2,Xerox WorkCentre MFD,1
+Allegro-Software-RomPager,1,NA,0,NA,0,NA,0,Copyright \(c\) Xerox Corporation,1,Xerox WorkCentre MFD,1
+Allegro-Software-RomPager,1,NA,0,NA,0,^Xerox WorkCentre (\S+\s\S+)\s\-,1,NA,0,Xerox WorkCentre MFD,1
+Allegro-Software-RomPager,1,,0,NA,0,aler,0,printer; embedded web server; internet services,1,Xerox Phaser MFD,1
+Amanda,0,NA,0,NA,0,NA,0,NA,0,Amanda Smart Network Telephony,1
+AP HTTP Server,0,NA,0,NA,0,NA,0,frame name=\x22top\x22 src=\x22\/cgibin\/entry\x22,2,Nortel Networks ICB,1
+Apache,0,NA,0,NA,0,Riverbed Technology\x2c Inc,1,riverbed-logo\.gif,1,Riverbed WAN Optimizer,1
+Apache,0,NA,0,NA,0,StruxureWare Central,1,NA,0,Schneider Electric StruxureWare,1
+Apache,0,NA,0,/parser.cgi?default.html,0,,0,\/parser\.cgi\?index2\.html,1,Canon Fiery Printer,1
+Apache,0,NA,0,NA,0,NA,0,\+ location.host \+ \x22\/cgi-bin\/common\/issue,1,Avaya Communications Manager,1
+Apache,0,NA,0,/cgi-bin/utility/sjcmain.cgi,0,Storage Device List,0,NA,0,Hitachi Storage Manager,1
+Apache,0,NA,0,NA,0,Loading Server Page,0,\/webacs\/welcomeAction.do,1,Cisco Wireless Control System,1
+Apache,0,NA,0,NA,0,HP BladeSystem Onboard Administrator,0,\/js\/debugger.js,1,HP Blade Manager,1
+Apache,0,,0,//cgi-bin/webcgi/index,0,,0,ADEnabled,1,Dell Chassis Management Controller,1
+Apache,0,,0,NA,0,InfraStruXure Central,1,www\.apc\.com,1,APC InfraStruXure,2
+Apache\s+NetFile,1,NA,0,/cgi-bin/set_index.cgi,0,Web Status Monitor,0,top_main\.cgi,1,Ricoh Scanner,1
+^Apache\/,1,NA,0,NA,0,Oracle Secure Global Desktop,0,tarantella\/resources,1,Oracle Secure Global Desktop,1
+^Apache/1.0.3,1,NA,0,NA,0,,0,\/parser\.exe\?index2\.html,1,Canon Fiery Printer,1
+^Apache-Coyote\/,1,NA,0,NA,0,NA,0,home page for the Seadragon Platform NOT,1,Cisco Communications Manager,1
+^Apache-Coyote\/,1,,0,NA,0,CiscoWorks Network Compliance Manager,1,CWNCM,1,CiscoWorks NCM,1
+^Apache-Coyote\/,1,NA,0,/app,0,Proteus Login,0,BlueCat Networks,1,BlueCat Proteus IP Manager,1
+^Apache-Coyote\/,1,NA,0,NA,0,Apache Tomcat,1,NA,0,Apache Tomcat/Coyote,1
+^Apache-Coyote\/,1,NA,0,NA,0,NA,0,document\.location\.href\=\'\/servlet\/StartServlet\',1,Oce Print Server,1
+^Apache-Coyote\/,1,NA,0,NA,0,NA,0,MarkVision Professional,1,Lexmark Printer,1
+^Apache-Coyote\/,1,NA,0,NA,0,Mitel Communications Director,0,esm_login.asp,1,Mitel Communications Director,1
+^Apache,1,NA,0,NA,0,Cisco UCS Manager,0,Cisco Systems,1,Cisco UCS Manager,1
+^Apache,1,NA,0,NA,0,Cisco TelePresence System Administration,0,Cisco Systems,1,Cisco TelePresence,1
+^Apache,1,NA,0,NA,0,NA,0,var is EhealthWeb=true,1,CA EHealth,1
+^Apache,1,NA,0,NA,0,MAXTOR CENTRAL AXIS,0,NA,0,MAXTOR NAS,1
+^Apache,1,NA,0,page=\/pages\/queueTabs\.jsp,1,Web Printer Management Tool,0,NA,0,Xerox FreeFlow Accxes,1
+^Apache,1,NA,0,NA,0,MS4W - MapServer 4 Windows,0,NA,0,MapServer 4 Windows,1
+^Apache,1,NA,0,NA,0,Micronet PlatinumNAS,0,NA,0,Micronet Platinum NAS,1
+^Apache,1,NA,0,NA,0,Cisco MDS,0,NA,0,Cisco MDS,1
+^Apache,1,NA,0,NA,0,CiscoWorks Network Copmliance Manager,1,NA,0,CiscoWorks NCM,1
+^Apache,1,NA,0,/appmng/portal/portal.jsf,1,,0,NA,0,Websense,1
+^Apache,1,NA,0,NA,0,Index of,1,NA,0,Apache No Index,1
+^Apache,1,NA,0,NA,0,WebDVR,0,NA,0,Bosch WebDVR,1
+^Apache,1,NA,0,NA,0,LinkStation\s\-\s,1,NA,0,Buffalo LinkStation,1
+^Apache,1,NA,0,/cgi-bin/pcast.cgi,0,NA,0,\<meta name\=\x22Author\x22 content\=\x22BUFFALO INC\.\x22\>,2,Buffalo PCAST media server,1
+^Apache,1,NA,0,NA,0,TeraStation PRO\s\-,1,NA,0,Buffalo TeraStation Pro,1
+^Apache,1,NA,0,NA,0,TeraStation,0,NA,0,Buffalo TeraStation,1
+^Apache,1,NA,0,NA,0,Wireless Control System,0,NA,0,Cisco Wireless Control System,1
+^Apache,1,NA,0,NA,0,NA,0,<html><body><h1>It works!</h1></body></html>,0,Default Apache web page,1
+^Apache,1,NA,0,NA,0,test page[\s|\S]*apache\s,2,NA,0,Default Apache web page,1
+^Apache,1,NA,0,NA,0,It works,2,NA,0,Default Apache web page,1
+^Apache,1,NA,0,NA,0,Mac OS X Server,1,Welcome to your website,1,Default OSX Apache web page,1
+^Apache,1,NA,0,NA,0,dell\s-\s\S+\slogin\sscreen,2,NA,0,Dell ILOM,1
+^Apache,1,NA,0,NA,0,Remote Access Controller,1,NA,0,Dell Remote Access Controller,2
+^Apache,1,NA,0,EZManager\.html,1,NA,0,NA,0,FabricOS Switch Explorer,1
+^Apache,1,NA,0,switchExplorer\.html,1,NA,0,NA,0,FabricOS Switch Explorer,1
+^Apache,1,NA,0,NA,0,switch\s*explorer,2,NA,0,FabricOS Switch Explorer,1
+^Apache,1,NA,0,NA,0,Google Earth API Sample,0,NA,0,Google Earth Appliance,1
+^Apache,1,NA,0,NA,0,designjet,2,NA,0,HP DesignJet Printer,1
+^Apache,1,NA,0,NA,0,designjet (\d+),2,NA,0,HP DesignJet Printer,2
+^Apache,1,NA,0,/hp/device/webAccess/jsDisabled.htm,0,Javascript disabled,0,NA,0,HP DesignJet Printer,2
+^Apache,1,NA,0,\/unsec-cgi-bin\/unsec_login,2,NA,0,NA,0,Intuity Audix PBX,1
+^Apache,1,NA,0,NA,0,INTUITY AUDIX,1,NA,0,Intuity Audix PBX,1
+^Apache,1,NA,0,NA,0,Iomega NAS Manager,0,\/bootup\/welcome.html,1,IOMega NAS,1
+^Apache,1,NA,0,NA,0,Iomega NAS Manager,0,NA,0,IOMega NAS,2
+^Apache,1,NA,0,NA,0,,0,MultiAccess\&trade; Communications Server,1,Multitech MultiAccess Communications Server,1
+^Apache,1,NA,0,\/dfm\/report\/view\/suite,1,Licensed Software Components,1,NA,0,NetApp Operations Manager,1
+^Apache,1,NA,0,/shares/,0,My Shares,0,NA,0,Netgear ReadyNAS,1
+^Apache,1,NA,0,NA,0,Océ,1,NA,0,Oce Print Server,1
+^Apache,1,NA,0,NA,0,Login,0,FRAME name=main src=\x22\/servlet\/LoginPage\x22 scrolling=\x22auto\x22\>,1,Niksun NetDetector,1
+^Apache,1,,0,NA,0,Niksun,1,servlet\/LoginDecider,1,Niksun NetDetector,1
+^Apache,1,NA,0,NA,0,Please Login,0,\/voyager\/applysf\.htm,1,Nokia IPSO appliance,1
+^Apache,1,NA,0,NA,0,NA,0,www\.snapappliance\.com,1,Overland Storage,1
+^Apache,1,NA,0,NA,0,Polycom RSS 2000,1,NA,0,Polycom VTC,1
+^Apache,1,NA,0,NA,0,^EMA,1,NA,0,Polycom VTC,1
+^Apache,1,NA,0,NA,0,Prism Index,1,NA,0,Quantum Prism NAS,1
+^Apache,1,NA,0,NA,0,PX720 Login,0,NA,0,Quantum PX720 Tape Library,1
+^Apache,1,NA,0,NA,0,Red Hat Network Proxy Server,0,NA,0,Red Hat Network Proxy Server,1
+^Apache,1,NA,0,NA,0,RW-240 PLOTCLIENT WEB,1,NA,0,Ricoh RW-240 Plotter,1
+^Apache,1,NA,0,NA,0,Scrutinizer NetFlow Analyzer,1,NA,0,Scrutinizer NetFlow Analyzer,1
+^Apache,1,NA,0,NA,0,Scyld Software,1,NA,0,Scyld Beowulf Storage Cluster,1
+^Apache,1,NA,0,NA,0,Shoreline Audio Conferencing,0,NA,0,Shoreline Audio Conferencing,1
+^Apache,1,NA,0,NA,0,^Sun Management Center,1,NA,0,Sun Management Center Web Console,1
+^Apache,1,NA,0,NA,0,Trimble NetRS,1,NA,0,Trimble NetRS GPS,1
+^Apache,1,NA,0,NA,0,^Urchin (\d+)$,1,NA,0,Urchin on Apache,1
+^Apache,1,NA,0,NA,0,xerox colorQube,2,NA,0,Xerox ColorQube Copier,1
+^Apache,1,NA,0,NA,0,xerox workcentre,2,NA,0,Xerox WorkCentre MFD,2
+^Apache,1,NA,0,NA,0,^\s*$,1,Oracle HTTP Server.+\<a href\=\x22\/demo\/\x22\>\(demos\)\<\/a\>,1,Oracle Web Server With Demos,1
+^Apache,1,NA,0,NA,0,^\s*$,1,Oracle HTTP Server,1,Oracle Web Server,1
+^Apache,1,NA,0,NA,0,Webtools,1,wt2parser\.cgi,1,Xerox Fiery MFD,1
+^Apache,1,NA,0,/start.html,0,Loading...,0,NA,0,NetApp OnCommand,1
+^Apache,1,,0,/home.php,0,EndRun Technologies,0,ntp.php,1,EndRun Technologies NTP Appliance,1
+# this one has to be last apache as its non-specific
+Apache,1,NA,0,NA,0,NA,0,NA,0,Apache Web Server,1
+Apache Tomcat,1,NA,0,NA,0,NA,0,NA,0,Apache Tomcat/Coyote,1
+ApacheJServ,1,NA,0,NA,0,,0,Oracle Corporation,1,Oracle Web Server,1
+Apple Embedded Web Server,1,NA,0,NA,0,NA,0,NA,0,Apple Embedded Web Server,1
+^Avocent DSView \d\/\S+$,1,NA,0,NA,0,NA,0,NA,0,Avocent DSView,1
+Boa\/,1,NA,0,NA,0,NetCam,1,NA,0,AXIS Webcam,2
+Boa\/,1,axview,0,NA,0,401 Unauthorized,0,NA,0,AXIS Webcam,2
+Boa\/,1,NA,0,NA,0,AXIS\s\S+\sNetwork\sCamera,1,NA,0,AXIS Webcam,2
+Boa\/,1,NA,0,/en/index.html,0,Sony Network Camera,1,NA,0,Sony Webcam,1
+Boa\/,1,1.3M Indoor Dome,0,NA,0,401 Unauthorized,0,NA,0,Sony Exmor Webcam,1
+Boa\/,1,NA,0,NA,0,,0,nav_e.php,1,SEH Intelligent Spooling Device,1
+Boa\/,1,axview,0,/view/index.shtml,0,401 Unauthorized,0,NA,0,AXIS Webcam,2
+Boa\/,1,,0,NA,0,,0,network_rtsp_s0_accessname,1,Vivotek Webcam,1
+canon\shttp\sserver,2,NA,0,NA,0,NA,0,NA,0,Canon Copier,1
+Check Point SVN foundation,0,NA,0,NA,0,Check Point Software Technologies: We Secure the Internet,0,NA,0,CheckPoint Firewall,0
+cisco-IOS,1,NA,0,NA,0,NA,0,Cisco Systems\x2c Inc\x00The device manager,3,Cisco Network Device,2
+cisco,2,NA,0,NA,0,NA,0,NA,0,Cisco Network Device,1
+cisco,2,^air,2,NA,0,NA,0,NA,0,Cisco WAP,1
+Citrix Web PN Server,0,NA,0,NA,0,NA,0,NA,0,Citrix Server,1
+CJServer\/,1,,0,NA,0,Login Page,0,_common\/lvl5\/dologin.html,1,WebCTRL HVAC,1
+CR1000.Std.20,0,,0,NA,0,Home Page,0,Newest Record from ,1,Campbell SCI Monitor,1
+debut\/,2,NA,0,NA,0,brother\s,2,NA,0,Brother Printer,1
+Debut\/,1,NA,0,/main/main.html,0,SP\s,1,Brother Industries,1,Brother Printer,1
+dwhttpd\/,2,NA,0,NA,0,AnswerBook2,0,NA,0,Sun AnswerBook2,1
+eHTTP,2,NA,0,NA,0,ProCurve Switch,1,NA,0,Hewlett-Packard Switch,1
+^Embedded Web Server Version,1,NA,0,NA,0,^(OPERATOR|MONITOR) MODE,1,\/cgi-bin\/ope\/master\.cgi,1,Unknown Monitor,1
+^Embedded Web Server Version,1,NA,0,NA,0,^(OPERATOR|MONITOR) MODE,1,\/cgi-bin\/moni\/monitop\.cgi,1,Unknown Monitor,1
+emhttp,0,NA,0,NA,0,System Page,1,new Array;srvparam\[0\],1,VLinx Serial Adapter,1
+^EMWHTTPD\/,1,NA,0,NA,0,Konica Minolta,2,NA,0,Konica Minolta MFD,1
+^EMWHTTPD\/,1,NA,0,NA,0,Minolta PageScope,1,NA,0,Minolta Copier,1
+epson-http\/,2,NA,0,NA,0,epsonnet\s,2,NA,0,Epson Printer,1
+EPSON_Linux UPnP,1,,0,NA,0,WorkForce,1,SEIKO EPSON,1,Epson Workforce MFD,1
+EWS-NIC4\/11,1,NA,0,NA,0,\w+\d+\w+,1,NA,0,Lexmark Laser Printer,1
+EWS-NIC4/10.66,0,NA,0,NA,0,Phaser (\S+)\s\-,1,NA,0,Xerox Phaser MFD,1
+EWS-NIC4\/9,1,NA,0,NA,0,Dell MFP,1,NA,0,Dell Laser Printer,1
+EWS-NIC4/8.34,0,NA,0,NA,0,Dell Color Laser \d+\w+,1,NA,0,Dell Color Laser Printer,1
+EWS-NIC4/8.34,0,,0,NA,0,,0,NA,0,Dell Color Laser Printer,1
+EWS-NIC5\/16,1,NA,0,/index.htm,0,NA,0,status\/status.htm,1,Dell Color Laser Printer,1
+EWS-NIC5\/95,1,NA,0,/default.htm,0,WorkCentre,1,NA,0,Xerox WorkCentre MFD,1
+EWS-NIC5\/15,1,NA,0,/index.htm,0,Dell\s\S+\sColor\sLaser,1,NA,0,Dell Color Laser Printer,1
+ews-nic3\/,2,NA,0,NA,0,dell\scolor\slaser\s,2,NA,0,Dell Color Laser Printer,1
+ews-nic3\/,2,NA,0,NA,0,dell\slaser\sprinter\s,2,NA,0,Dell Laser Printer,1
+ews\-nic,2,NA,0,NA,0,dell color laser,2,NA,0,Dell Color Laser Printer,1
+ews\-nic,2,NA,0,NA,0,/\S+\s\-\S+,1,NA,0,Lexmark Copier,2
+ews\-nic,2,NA,0,NA,0,/X\d\d\d\w\s\-\sX\d\d\d\w\-,1,NA,0,Lexmark Copier,2
+foundry[\s|\_]networks,2,NA,0,NA,0,NA,0,NA,0,Foundry Network Device,1
+gen5th\/,1,NA,0,/en/index.html,0,,0,\/command\/inquiry\.cgi,1,Sony Webcam,1
+-IronPort,1,NA,0,\/login,1,: Redirecting ,0,NA,0,IronPort Mail Gateway,1
+GoAhead-Webs,0,,0,login\.htm,1,Citrus Login,0,goform\/doGet,1,GigaMon G-Vue Tap,1
+GoAhead-Webs,0,NA,0,NA,0,HP Remote Insight,0,NA,0,HP ILOM,1
+GoAhead-Webs,0,NA,0,/gf/startpage.htm,0,Login,0,stop_spinner,1,Spectra Tape Library,1
+GoAhead-Webs,1,NA,0,NA,0,NA,0,window\.location\.href \= \x22\/page\/login.html\x22,1,American Megatrends MegaRac,1
+GoAhead-Webs,1,NA,0,NA,0,MCU Default Page,0,NA,0,Cisco IP VTC,1
+GoAhead-Webs,1,NA,0,NA,0,Login,1,\.\.\/Images\/Login\/GWlogin.jpg,1,Cisco IPVC,1
+GoAhead-Webs,0,NA,0,/config/log_off_page.htm,0,,0,titlecisco3log,1,Cisco Network Device - SB,1
+GoAhead-Webs,1,NA,0,NA,0,^Avocent Switch,1,NA,0,Cyclades Avocent Switch,1
+GoAhead-Webs,1,NA,0,NA,0,Cyclades Web Manager,1,NA,0,Cyclades Out-of-band Management,1
+GoAhead-Webs,1,NA,0,NA,0,Cyclades\-\S+ Web Manage,1,NA,0,Cyclades Out-of-band Management,2
+GoAhead-Webs,1,NA,0,NA,0,Cyclades\-TS800 Web Management Service,1,NA,0,Cyclades Out-of-band Management,3
+GoAhead-Webs,1,NA,0,NA,0,authentication page,1,NA,0,Dell Network Switch,1
+GoAhead-Webs,1,NA,0,NA,0,unauthorized,1,NA,0,Dell Network Switch,1
+GoAhead-Webs,1,,0,/Applications/dellUI/uploadportconfirm.htm,0,,0,NA,0,Dell Remote Access Controller,4
+GoAhead-Webs,1,NA,0,NA,0,HP Power Manager,0,NA,0,HP Power Manager,1
+GoAhead-Webs,1,NA,0,NA,0,^Index$,1,function AutoLang,1,Lexmark Copier,3
+GoAhead-Webs,1,NA,0,\/configurad\/home,2,\/configurad\/cover_frame,2,NA,0,RAD Data NAS,1
+GoAhead-Webs,1,NA,0,NA,0,Login,0,\<\!-- Raritan logo --\>,1,Raritan Dominion PDU,1
+GoAhead-Webs,1,NA,0,NA,0,Nexsan,1,NA,0,Nexsan NAS,1
+GoAhead-Webs,1,NA,0,NA,0,Nexsan SATABeast,1,NA,0,Nexsan SATABeast NAS,1
+GoAhead-Webs,1,NA,0,NA,0,Authentication,0,\<td class\=\x22authHeading\x22 align\=\x22center\x22\>Authenticate with Login and Password\!\<\/td\>,1,Tripp-Lite,1
+GoAhead-Webs,1,NA,0,/config/log_off_page.htm,0,Authentication Page,0,botCaptionMAC,1,Allied Telesis Switch,1
+Gordian Embedded,1,NA,0,NA,0,,0,NA,0,Lantronix Switch,1
+Gordian Embedded,1,NA,0,NA,0,Lantronix,1,NA,0,Lantronix Switch,1
+Hikvision-Webs,0,,0,/index.asp,0,Index,0,NA,0,HikVision DVR,1
+HP Web Jetadmin,1,NA,0,NA,0,NA,0,NA,0,HP Jetadmin,1
+httpd,0,NA,0,/start.html,0,,0,NA,0,Dell ILOM,1
+HP\-ChaiSOE,1,NA,0,NA,0,NA,0,NA,0,HP Printer,2
+HP\-ChaiSOE,1,NA,0,NA,0,LaserJet \w\w\d\d\d\d,1,NA,0,HP Printer,2
+HP\-ChaiSOE,1,NA,0,NA,0,LaserJet \w{1\x2c2}\d\d\d\d,1,NA,0,HP Printer,2
+HP\-ChaiSOE,1,NA,0,NA,0,NA,0,\<option\s+value=\x22x\x22\>(Printer|Device) Serial Number\:,1,HP Printer,2
+HP\-ChaiSOE,1,NA,0,NA,0,LaserJet \d\d\d\d,1,NA,0,HP Printer,3
+HP\-ChaiSOE,1,NA,0,NA,0,Digital Sender,1,NA,0,HP Scanner,1
+HP\-ChaiServer\/\d\.\d,1,NA,0,NA,0,LaserJet \d\d\d\d,1,NA,0,HP Printer,2
+HP\-ChaiServer\/\d\.\d,1,NA,0,NA,0,NA,0,NA,0,HP Printer,2
+HP\-ChaiServer\/3\.0,1,NA,0,NA,0,LaserJet \w\w\d\d\d\d,1,NA,0,HP Printer,6
+HP_Compact_Server,1,NA,0,NA,0,HP,1,NA,0,HP Printer,2
+HP HTTP Server; HP Officejet,1,NA,0,NA,0,,0,NA,0,HP Officejet,1
+^HTTP\/1\.0,1,NA,0,NA,0,NA,0,NA,0,HP Printer,2
+^HTTP\/1\.0,1,NA,0,NA,0,Digital\s*Sender,1,NA,0,HP Scanner,1
+^HTTP\/1\.0,1,NA,0,NA,0,\w\w\d\d\d\d,1,NA,0,Imagistics Copier,1
+^HTTP\/1\.0,1,NA,0,NA,0,401 Not Authorized,1,NA,0,Imagistics Copier,1
+^HTTP\/1\.0,1,NA,0,NA,0,^\w\w\-\w{1\x2c2}\d{1\x2c3},1,NA,0,Sharp Printer,1
+^HTTP\/1\.0,1,NA,0,NA,0,INDEX PAGE,1,NA,0,Sharp Printer,1
+^HTTP\/1\.0,1,NA,0,NA,0,\s-\s\w\w\-\d\d\d\d\w,1,NA,0,Sharp Printer,2
+^HTTP\/1\.0,1,NA,0,NA,0,TOP PAGE,1,NA,0,Sharp Printer,3
+^httpd\/,1,,0,login.htm,1,PacketShaper Login,1,Blue Coat Systems,1,BlueCoat Packet Shaper,1
+HTTPD,0,NA,0,NA,0,NA,0,NA,0,Panasonic Network Camera,1
+HTTP server,0,NA,0,/index.asp,0,Index,0,NA,0,Dell Color Laser Printer,2
+^http server,1,NA,0,NA,0,,0,\+location\.hostname\+'\+8080\+'\/';,1,QNAP NAS,1
+^Intellex-Http Server,1,NA,0,NA,0,American Dynamics: Video Management Solutions,0,NA,0,American Dynamics Video,1
+^InterNiche Technologies WebServer,1,NA,0,NA,0,Canopy,1,NA,0,Motorola Canopy WAP,1
+^InterNiche Technologies WebServer,1,NA,0,NA,0,,0,NA,0,Motorola Canopy WAP,1
+^InterNiche Technologies WebServer,1,NA,0,NA,0,- Polycom,1,NA,0,Polycom VTC,1
+IQ3,0,NA,0,NA,0,NA,0,NA,0,Trend IQ3XCite Building Automation System,1
+IP Speaker Web interface,0,,0,NA,0,IP Speaker,1,SIP Status Page,1,AND Speaker,1
+IP Speaker Web interface,0,,0,NA,0,IP Speaker,1,Boot Loader,1,AND Speaker,1
+IsItUp,0,NA,0,NA,0,IsItUp Device View,0,NA,0,IsItUp Network Monitor,1
+IVC Enterprise Video Server,0,NA,0,NA,0,NA,0,NA,0,IVC Webcam,1
+^jc-httpd\/,2,NA,0,NA,0,NA,0,NA,0,Kyocera Copier,1
+^Jetty\/,1,,0,NA,0,AMX,0,\/web\/root\/webControl.xml,1,Emerson AMX Controller,1
+^Jetty,1,NA,0,NA,0,Cisco Systems,1,Cisco Cius,2,Cisco CIUS,1
+^Jetty,1,,0,/sso/sign-in.jsp,1,Log In,0,Unified Communications Monitor,1,CA Unified Communications Monitor,1
+Jetty\(,1,NA,0,NA,0,ACE \d+ DM - Login,1,Cisco Systems,1,Cisco ACE Device Manager,1
+^Jigsaw\/,1,NA,0,NA,0,NA,0,location\.href\=\x22\/servlet\/controller\?cmd\=start\x22,1,Oce Print Server,1
+^km-httpd\/,2,NA,0,NA,0,,0,NA,0,Kyocera MFD,1
+^KM_HTTP-Server\/,1,NA,0,NA,0,NA,0,NA,0,Kyocera Copier,1
+^KM-MFP-http,1,,0,NA,0,NA,0,startwlm\/Start_Wlm\.htm,1,Kyocera Copier,1
+^KM-MFP-http\/,1,NA,0,NA,0,NA,0,\<title\>Kyocera Command Center\<\/title\>,1,Kyocera Copier,1
+^KS_HTTP\/,1,NA,0,/index.html,0,Canon,1,Canon Inc,1,Canon MFD,1
+^lighttpd\/,1,NA,0,nocookies.html,1,,0,NA,0,UBNT AirOS WAP,1
+^lighttpd\/,1,,0,MainApp.html,1,Brocade,1,NA,0,Brocade Mobility WAP,1
+^lighttpd\/,1,,0,MainApp.html,1,Loading Application,1,NA,0,Brocade Mobility WAP,1
+^lighttpd,1,NA,0,NA,0,^Shared Storage Manager,1,NA,0,Western Digital Shared Storage,1
+^lighttpd,1,NA,0,NA,0,Polycom,1,NA,0,Polycom VTC,2
+^lighttpd,1,Cisco Digital Media Player,0,NA,0,401 - Unauthorized,0,NA,0,Cisco Digital Media Player,1
+^lighttpd\/,1,NA,0,/wsgi/sessions/new,0,^CISCO Codec,1,NA,0,Cisco IP VTC,1
+^lighttpd\/,1,Cisco E20,0,NA,0,401 - Unauthorized,0,NA,0,Cisco IPVC,1
+^lighttpd\/,1,NA,0,/liveview,0,Sarix&trade;,0,NA,0,Pelco Sarix,1
+^lighttpd\/,1,NA,0,/liveview,0,Endura&trade;,0,NA,0,Pelco Endura,1
+^lighttpd\/,1,NA,0,/static/index.html,0,,0,BUFFALO LIBS,1,Buffalo TeraStation,1
+^lighttpd\/,1,NA,0,NA,0,QUANTUM - Scalar,1,NA,0,Quantum Scalar Tape Library,1
+^lighttpd\/,1,,0,NA,0,LaCie,1,\&nbsp\;Dashboard\<\/title,1,LaCie NAS,1
+^lighttpd\/,1,,0,NA,0,,0,ATEN International Co,1,SuperMicro ILOM,1
+LPC Http Server\/,1,NA,0,NA,0,konica minolta,2,NA,0,Minolta Copier,2
+Mbedthis-Appweb,1,NA,0,/login.html,0,Integrated Dell Remote Access Controller,1,NA,0,Dell Remote Access Controller,3
+^Mbedthis-Appweb\/,1,NA,0,/start.html,0,,0,\/sclogin.html,1,Dell Remote Access Controller,3
+^Micro-HTTP\/,1,NA,0,NA,0,NA,0,Copyright Tektronix,1,Tektronix Printer,1
+microHttpd\/,1,NA,0,NA,0,iPocket232,1,NA,0,Precidia iPocket232,1
+microHttpd\/,1,NA,0,NA,0,Ether232Plus,1,NA,0,Precidia Ether232Plus,1
+Microsoft-IIS/5.1,0,NA,0,NA,0,LaCie NAS Administration,1,NA,0,LaCie NAS,1
+Microsoft-IIS/5.1,0,NA,0,NA,0,DiBos - Login,1,NA,0,Bosch Dibos CCTV,1
+Microsoft-IIS/5.1,0,NA,0,NA,0,WebAgent,0,NA,0,Digiop WebAgent Camera,1
+Microsoft-IIS/5.1,0,,0,NA,0,KIP Print,1,images\/kip\.png,1,KIP Print Server,1
+Microsoft-IIS/5.1,1,,0,main.asp,1,^PrintNET,1,images\/kiplogo\.png,1,KIP Print Server,1
+Microsoft-IIS/5.1,0,NA,0,NA,0,Under\sConstruction,2,NA,0,Microsoft IIS Web Server (Default IIS web page),1
+Microsoft-IIS/5.1,0,NA,0,NA,0,You are not authorized to view this page,1,NA,0,Microsoft IIS Web Server (Access Restricted),1
+Microsoft-IIS/5.1,0,Neogitate\x2c NTLM\x2c Basic realm,0,NA,0,Error,0,NA,0,Microsoft IIS Web Server (Password Required),1
+Microsoft-IIS/5.1,0,NA,0,NA,0,Directory Listing Denied,0,NA,0,Microsoft IIS Web Server (No Index/Directory Listing Denied),1
+# below must remain last 5/.1
+Microsoft-IIS/5.1,0,NA,0,NA,0,NA,0,NA,0,Microsoft IIS Web Server,1
+Microsoft-IIS/6.0,0,NA,0,NA,0,VBrick Systems,1,NA,0,VBrick Web TV,1
+Microsoft-IIS/6.0,0,,0,Robo/BIN/Robo.dll,1,RoboHelp Enterprise,0,NA,0,Adobe RoboHelp,1
+Microsoft-IIS/6.0,0,,0,/SingleSignOn/UpgradeBrowser.aspx,1,Upgrade Browser,1,NetQoS\x2c Inc,1,NetQoS,1
+Microsoft-IIS,1,NA,0,NA,0,WebDVR,1,NA,0,Pelco WebDVR,2
+Microsoft-IIS,1,NA,0,NA,0,DiBos - Loginm,1,NA,0,Bosch Dibos CCTV,1
+Microsoft-IIS,1,NA,0,NA,0,PaperVision - Login,0,NA,0,DigiTech Papervision,1
+Microsoft-IIS,1,NA,0,NA,0, Orion Network Performance Monitor,0,NA,0,Solarwinds Orion Network Monitor,1
+Microsoft-IIS,1,NA,0,NA,0,  AtHoc\x2c Inc. :: Management System Login,0,NA,0,AtHoc IWSAlerts Management System,1
+Microsoft-IIS,1,NA,0,NA,0,You are not authorized to view this page,1,NA,0,Microsoft IIS Web Server (Access Restricted),1
+Microsoft-IIS,1,NA,0,NA,0,Directory Listing Denied,0,NA,0,Microsoft IIS Web Server (No Index/Directory Listing Denied),1
+Microsoft-IIS,1,NA,0,NA,0,Under\sConstruction,2,NA,0,Microsoft IIS Web Server (Default IIS web page),1
+Microsoft-IIS,1,NA,0,NA,0,IIS7,0,NA,0,Microsoft IIS Web Server (Default IIS7 web page),1
+Microsoft-IIS,1,NA,0,NA,0,Index of,2,NA,0,Microsoft IIS Web Server (No Index),1
+Microsoft-IIS,1,NA,0,NA,0,,0,Bad Request \(Invalid Hostname\),1,Microsoft IIS Web Server (Invalid Hostname),1
+Microsoft-IIS,1,NA,0,NA,0,You are not authorized to view this page,0,NA,0,Microsoft IIS Web Server (Access Denied),1
+Microsoft-IIS,1,NA,0,NA,0,NA,0,NA,0,Microsoft IIS Web Server,1
+\d+\.\d+_Pub,1,NA,0,NA,0,NA,0,NA,0,Microsoft IIS Web Server,1
+Microsoft-WinCE\/,1,NA,0,NA,0,Projector LAN Control,1,NA,0,NEC Webcam,1
+Micro-Web,0,NA,0,NA,0,NA,0,NA,0,Overland Storage TLC,1
+micro_httpd,1,BUFFALO,1,NA,0,NA,0,NA,0,Buffalo WAP,1
+Micro-Web,0,NA,0,NA,0,NA,0,NA,0,Win VOIP System,1
+^mini_httpd,1,NA,0,NA,0,,0,NA,0,QLogic SANSurfer,1
+^mini_httpd\/,1,,0,noscript.html,1,WebManager,0,WebManager requires JavaScript and cookies,1,Perle Media Converter,1
+Mrvl-R1_0,0,NA,0,/SSI/index.htm,0,HP LaserJet,1,\/SSI\/Auth\/,1,HP Printer,2
+^MSIWB,1,NobleGUI,1,NA,0,NA,0,NA,0,Sun T3 Storage,1
+MoxaHttp,1,NA,0,NA,0,NPort Web Console,1,NA,0,Moxa Switch,1
+^MoxaHttp\/,1,NA,0,NA,0,NA,0,\<\!\-\-var Words =\x22%3CHTML%3E,1,Moxa NPort 5100,1
+NetApp\/\d+,1,NA,0,NA,0,403 Forbidden,0,NA,0,NetApp NetCache,1
+NetApp\/\d+,1,NA,0,NA,0,NA,0,a href=\/na_admin\/\>\/na_admin\/,1,NetApp NAS,1
+NetApp\/\/\d+,1,NA,0,NA,0,403 Forbidden,0,NA,0,NetApp NetCache,1
+NetApp\/\/\d+,1,NA,0,NA,0,NA,0,a href=\/na_admin\/\>\/na_admin\/,1,NetApp NAS,1
+NetApp\/\/,1,NA,0,NA,0,Index of /,0,NA,0,NetApp NAS,1
+NetEVI\/,1,NA,0,NA,0,NA,0,NA,0,Sony Webcam,1
+netport\ssoftware\s,2,NA,0,NA,0,VSX\s\d+\w,1,NA,0,Polycom VTC,2
+netport\ssoftware\s,2,NA,0,NA,0,,0,NA,0,Polycom VTC,2
+netport\ssoftware\s,2,NA,0,NA,0,\s-\sPolycom\s\'\+,1,NA,0,Polycom VTC,5
+netport\ssoftware\s,2,NA,0,NA,0,'\+sysName\+'\s\-\s\'\+titleModel,1,NA,0,Polycom VTC,2
+NetPort Software,1,,0,NA,0,On Board Remote Management,0,bust_stat\.html,1,Dell PowerVault,3
+NetPort Software,1,NA,0,NA,0,On Board Remote Management,0,NA,0,Quantum Superloader,1
+^Netscape-Enterprise\/,1,NA,0,NA,0,NA,0,NA,0,Netscape Enterprise Web Server,1
+NetworkScanner WebServer,1,NA,0,NA,0,NA,0,NA,0,Kyocera Network Scanner,1
+Oce Express WebTools,0,NA,0,/home.jsp,0,- Jobs -,1,NA,0,Oce Printer,1
+^Oracle-Application-Server-\S+,1,NA,0,NA,0,NA,0,href=\x22\/demo\/\x22,1,Oracle Application Server (with demos),1
+^Oracle-Application-Server-\S+,1,NA,0,NA,0,NA,0,NA,0,Oracle Application Server,1
+^Oracle-ILOM-Web-Server\/,1,,0,NA,0,Integrated Lights Out Manager,0,NA,0,Oracle ILOM,1
+Oracle XML DB,1,XDB,0,NA,0,NA,0,NA,0,Oracle XDB,1
+oracle\sdatabase,2,NA,0,NA,0,NA,0,NA,0,Oracle Web Application,1
+OwnServer,1,NA,0,NA,0,NA,0,location.replace\(\x22\/mlogin16\.html\),1,ControlLogics DVR,1
+PelcoNet,1,NA,0,NA,0,NA,0,NA,0,Pelco CCTV,1
+Polycom SoundPoint IP Telephone HTTPd,0,,0,NA,0,Polycom,1,Polycom Web Configuration Utility,1,Polycom IP Phone,1
+PEWG\/,1,NA,0,NA,0,^Print Exec,1,NA,0,Oce Print Server,2
+PRINT_SERVER WEB ,1,NA,0,NA,0,NETGEAR Print Server,2,NA,0,Netgear Print Server,1
+PRINT_SERVER WEB ,1,NA,0,NA,0,Configure Server,2,src=\x22linksys.gif\x22,1,Netgear Print Server,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,^\w\w\-\w{1\x2c2}\d{1\x2c3},1,NA,0,Sharp Printer,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,INDEX PAGE,1,NA,0,Sharp Printer,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,\w\w\d\d\d\d,1,NA,0,Imagistics Copier,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,401 Not Authorized,1,NA,0,Imagistics Copier,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,\s-\s\w\w\-\d\d\d\d\w,1,NA,0,Sharp Printer,2
+\$ProjectRevision\: \d+,1,web management,4,NA,0,TOP PAGE,1,NA,0,Sharp Printer,3
+\$ProjectRevision\: \d+,1,web management,4,NA,0,DigitalSender,1,NA,0,HP Scanner,1
+\$ProjectRevision\: \d+,1,web management,4,NA,0,NA,0,NA,0,HP Printer,2
+Quantum Corporation,1,,0,NA,0,SNAP,1,There are no language resources available,1,Quantum SNAP NAS,1
+RAC_ONE_HTTP,1,NA,0,NA,0,Remote Access Controller,1,NA,0,Dell Remote Access Controller,1
+RAID HTTPServer\/,1,NA,0,NA,0,,0,content=\x22ricky:passwd\x22,1,Infortrend RAID,1
+Rapid\s*Logic\/,1,,0,NA,0,VBrick Integrated Web Server \(IWS\),1,Rapid Logic\x2c Inc,1,VBrick IWS VTC,1
+RapidLogic,1,NA,0,NA,0,Fabric View,0,NA,0,FabricOS Switch Explorer,1
+RapidLogic\/,1,NA,0,/,0,Spectrum24 Access Point,0,Wireless AP,1,Symbol WAP,1
+Rapid\s*Logic\/,1,NA,0,NA,0,switch\s*explorer,2,NA,0,FabricOS Switch Explorer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,NA,0,\/switchExplorer.html,1,FabricOS Switch Explorer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,Fabric View,0,NA,0,FabricOS Switch Explorer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,HP DesignJet,1,NA,0,HP DesignJet Printer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,designjet,1,NA,0,HP DesignJet Printer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,HP Business Inkjet,2,NA,0,HP Printer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,HP Officejet,1,NA,0,HP Printer,1
+Rapid\s*Logic\/,1,NA,0,/main.html,0,^\w\w-\S+,1,sharp-world.com,1,Sharp Printer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,^\w\w-\S+,1,logo.html,1,Sharp Printer,1
+Rapid\s*Logic\/,1,NA,0,/main.html,0,Top Page - \w\w-\S+,1,login.html\?\x22 \+ location.pathname,1,Sharp Printer,1
+Rapid\s*Logic\/,1,NA,0,NA,0,SEOSANGroup,1,by Dell\x2c Inc,1,Dell NAS,1
+Rapid\s*Logic\/,1,NA,0,NA,0,\w\w\d\d\d\d,1,link_user\.html,1,Imagistics Copier,1
+Rapid\s*Logic\/,1,,0,NA,0,EqualLogic PS Series Group Manager,1,trade secrets of Dell,1,Dell EqualLogic SAN,1
+^RMC Webserver\s,1,NA,0,NA,0,NA,0,NA,0,Dell Remote Access Controller,1
+Rocket \d\.\d\.\d\sPython\/\d\.\d\.\d,1,,0,/welcome/default/index,0,Welcome,0,web2py,1,Web2Py Web Application,1
+Rockpile Web Server,1,NA,0,NA,0,Device Information,1,NA,0,Cisco IP Phone,1
+Rockpile Web Server,0,NA,0,/localmenus.cgi?func=604,0,Settings,0,NA,0,Cisco IP Phone,1
+RTXCweb Software,1,index.htm,1,NA,0,,0,NA,0,Multitech VOIP Gateway,1
+RTXCweb Software,1,NA,0,NA,0,title_string,1,NA,0,Multitech VOIP Phone,1
+Schneider-WEB\/,1,NA,0,NA,0,NA,0,NA,0,Schneider Automation Web Server,2
+SHTTPD Ver 1.2,0,NA,0,NA,0,TrippLite,0,NA,0,Tripp Lite,1
+^Slinger,1,NA,0,NA,0,NA,0,NA,0,Panasonic WebDVR,1
+Snap\sAppliances?\x2c\sInc\.,1,NA,0,NA,0,NA,0,NA,0,SNAP Storage,1
+sonicwall,2,NA,0,NA,0,sonicwall\s\-\sauthentication,2,NA,0,SonicWall Firewall,1
+spyglass[\s|\_]microserver,2,NA,0,NA,0,NA,0,copyright\s\S+\s\d+\sxerox\s,2,Xerox WorkCentre MFD,1
+spyglass[\s|\_]microserver,2,NA,0,NA,0,NA,0,copyright\S+\sxerox\scorporation\s\d{4\x2c},2,Xerox WorkCentre MFD,1
+spyglass[\s|\_]microserver,2,NA,0,NA,0,CentreWare Internet Services Printer Management Software ,0,NA,0,Xerox WorkCentre MFD,1
+spyglass[\s|\_]microserver,2,NA,0,NA,0,PhaserLink\sPrinter\sManagement,1,NA,0,Tetronix Printer,1
+StorageTek-HTTPD,1,NA,0,NA,0,Web Admin,0,sedona.jnlp,1,Sun StorageTek Tape Library,1
+Sun-ILOM-Web-Server,1,NA,0,NA,0,NA,0,NA,0,Sun ILOM,1
+Sunny WebBox,0,NA,0,NA,0,Sunny WebBox,0,NA,0,SMA Sunny Web Box,1
+Synaccess,1,NA,0,NA,0,NA,0,NA,0,Synaccess Remote Power Management,1
+TargetWeb\/,1,NA,0,NA,0,Access Control Device,0,NA,0,Lenel Access Control,1
+The Knopflerfish HTTP Server,0,NA,0,NA,0,404 Not Found,0,NA,0,Ricoh Aficio,1
+thttpd,2,NetBotz Appliance,0,NA,0,,0,NA,0,APC NetBotz Environmental Monitoring,1
+thttpd\/,1,APC Appliance,1,NA,0,NA,0,NA,0,APC UPS,1
+thttpd,2,^air,2,NA,0,NA,0,NA,0,Cisco WAP,1
+thttpd,2,NA,0,NA,0,Cisco Nexus,1,NA,0,Cisco Network Device - Nexus,1
+thttpd,2,NA,0,NA,0,Cisco MDS,1,NA,0,Cisco Network Device - Cisco Device Manager,1
+thttpd,2,NA,0,NA,0,PTZ Internet Camera,1,NA,0,Cisco Camera,1
+^tivo-httpd-,1,NA,0,/index.html,0,Congratulations,1,NA,0,TiVo DVR,1
+^TLP 710TV\/,1,,0,NA,0,\x22 \+ xModel \+ \x22 Default Web Page,1,nortxe_header.html,1,Extron TLP 710TV,1
+Tomcat Web Server\/,1,NA,0,/Web/Common/HomePage.do,0,Log In - Cisco Unity Express,0,NA,0,Cisco Unity Express,1
+TOSHIBA,1,NA,0,TopAccess,1,NA,0,NA,0,Toshiba TopAccess MFD,1
+TP-LINK Router,0,TP-LINK Wireless,1,NA,0,Login Incorrect,0,NA,0,TP-Link WAP,1
+^Twisted,1,NA,0,NA,0,Sign in -- Sage,0,NA,0,Sage Worksheet,1
+^Ubicom\/,1,NA,0,NA,0,^Microtek,1,NA,0,MicroTek Ethernet,1
+Undefined,0,NA,0,/core/orionSplashScreen.do,0,ePolicy Orchestrator,1,NA,0,McAfee ePolicy Orchestrator,0
+(unknown),0,NA,0,NA,0,DELL - \S+ Login,1,NA,0,Dell PowerVault Tape Library,1
+(unknown),0,NA,0,NA,0,ADIC - Scalar,1,NA,0,ADIC Scalar NAS,1
+Unknown,0,NA,0,NA,0,Login Banner,0,NA,0,McData SanPilot,1
+UPS_Server\/,1,NA,0,NA,0,UPS Properties,1,NA,0,MGE UPS,1
+UPS_Server\/,1,NA,0,/./next.htm,0,ConnectUPS,1,NA,0,Powerware Connect UPS,1
+Viavideo-Web,0,NA,0,NA,0,\x22 + mfr + \x22 \x22 + sysname + \x22 \x22 + ip + \x22,0,NA,0,Polycom VTC,2
+Viavideo-Web,0,NA,0,NA,0,Web Interface,1,NA,0,Polycom VTC,2
+VCS-VideoJet-Webserver,0,NA,0,NA,0,^PelcoNet,1,NA,0,Pelco WebDVR,1
+VCS-VideoJet-Webserver,0,NA,0,NA,0,browser_capture,0,NA,0,Bosch WebDVR,1
+VCS-VideoJet-Webserver,0,NA,0,NA,0,,0,mainFrame.frm_content.contentbox2.Audio,1,Bosch WebDVR,1
+VCS-VideoJet-Webserver,0,NA,0,NA,0,,0,check if Gen4 is in bootloader mode,1,Bosch WebDVR,1
+VCS-VIP-10-\w-Webserver,1,NA,0,NA,0,VCS AG VIP,1,NA,0,Bosch Video Control System,1
+Virata-EmWeb\/,1,NA,0,NA,0,dj\d\d\d\d,1,NA,0,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,LaserJet (\w+\d\d\d\d|\d\d\d\d),1,NA,0,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,LaserJet ,1,NA,0,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,Device Info,1,NA,0,HP Printer,2
+Virata-EmWeb\/,1,NA,0,/device/this.LCDispatcher,0,NA,0,NA,0,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,NA,0,frame src\=\x22\x22 name\=\x22PhoneHome\x22 noresize\=\x22noresize\x22,1,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,NA,0,frame src\=\x22\/index_top.htm\x22 name\=\x22Banner\x22 noresize\=\x22noresize\x22,1,HP Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,NA,0,summary\=\x22This table is used to display the Jetdirect identification banner\.\x22,1,HP DesignJet Printer,2
+Virata-EmWeb\/,1,NA,0,NA,0,^HP Officejet,1,NA,0,HP Officejet,1
+Virata-EmWeb\/,1,NA,0,NA,0,,0,frame src\=\x22info_page\.htm\x22 name\=\x22Main\x22\x00frame src\=\x22info_tab.htm\x22 name\=\x22Tabs\x22,3,HP Photosmart Printer,1
+Virata-EmWeb\/,1,NA,0,NA,0,,0,HP Photosmart,1,HP Photosmart Printer,1
+Virata-EmWeb\/,1,NA,0,NA,0,HP Photosmart,1,HP Photosmart,1,HP Photosmart Printer,1
+Virata-EmWeb\/,1,level 15 access,0,/flash/home.html,0,NA,0,NA,0,Cisco Network Device,1
+Viavideo-Web,1,NA,0,NA,0,Web Interface,1,NA,0,Polycom VTC,3
+Viavideo-Web,1,NA,0,NA,0,videoconferencing system,1,NA,0,Polycom VTC,3
+Viavideo-Web,1,NA,0,NA,0,NA,0,NA,0,Polycom VTC,3
+Webs,0,,0,/en/login.asp,0,Login Page:,0,images/login_wlan\.jpg,1,TriVision Wireless Video Streamer,1
+^Web-Server\/,1,NA,0,NA,0,NA,0,NA,0,Ricoh Copier,1
+^Web Server\/,1,NA,0,NA,0,NA,0,a href\=\x22StsUsr\.htm\x22 target\=\x22_self\x22\>\<img src\=\x22User0\.JPG\x22,1,D-Link Print Server,1
+Web Server,0,NA,0,NA,0,Cisco Systems\x2c Inc. VPN,1,NA,0,Cisco VPN Concentrator,1	
+^Web Server\/,1,,0,NA,0,TRENDNET,1,descript\.gif,1,TRENDNET Print Server,1
+^web\s*server,2,NA,0,NA,0,netgear\ssystem\slogin,2,NA,0,NetGear Switch,1
+^web\s*server,2,NA,0,NA,0,xerox\s,2,NA,0,Xerox WorkCentre MFD,1
+^web\s*server,2,NA,0,NA,0,Web Image Monitor,0,NA,0,Ricoh Copier,1
+Webserver (Windows),0,NA,0,NA,0,American Dynamics: Video Management Solutions,0,NA,0,American Dynamics Video,2
+Xerox[\s|\_],2,NA,0,NA,0,NA,0,NA,0,Xerox WorkCentre MFD,1
+xes\swindweb,2,NA,0,NA,0,webpmt\s,2,NA,0,Xerox WebPMT,1
+xes\s\S+\swindweb,2,NA,0,NA,0,webpmt\s,2,NA,0,Xerox WebPMT,1
+WindRiver-WebServer\/,1,NA,0,NA,0,HP StorageWorks,1,NA,0,HP StorageWorks Ethernet Controller,1
+WindRiver-WebServer\/,1,\S{15\x2c15},1,NA,0,Cisco Systems,1,Network Statistics,1,Cisco IP Phone,1
+WindWeb\/,1,NA,0,NA,0,NA,0,Phoenix Contact GmbH,1,Pheonix Contact Switch,1
+WindWeb\/,1,NA,0,NA,0,TrueTime,1,NA,0,TrueTime NTP Server,1
+WindWeb\/,1,HP,0,NA,0,Links,0,NA,0,HP StorageWorks Ethernet Controller,1
+WindWeb\/,1,NA,0,NA,0,cisco\sweb\saccessible\sphone\ssettings,2,NA,0,Cisco IP VTC,1
+WindWeb\/,1,,0,NA,0,Enet Module Home Page,0,Module Information,1,Rockwell Serial Adapter,1
+WindWeb\/,1,,0,NA,0,,0,\/WEB\/conn\.htm,1,Xerox MFD,1
+^Zope,1,NA,0,NA,0,Zenoss Login,0,NA,0,Zope Zenoss Network Monitor,1
+ZOT-PS-\d+\/,1,NA,0,NA,0,Index,0,index11.htm,1,IOMega Print Server,1
+^\w{2\x2c}-\w{1\x2c2}\d{2\x2c3},1,NA,0,NA,0,NA,0,NA,0,Sharp Printer,4
+3Com,1,NA,0,NA,0,NA,0,NA,0,3COM Switch,1
+,0,,0,NA,0,Server GUI Console,1,MRV Logo,1,MRV Remote Console,1
+,0,,0,NA,0,Start EMC Unisphere,0,\'myWindow\' \+ myDate\.getTime,1,EMC Unisphere,1
+,0,,0,NA,0,,0,\'myWindow\' \+ myDate\.getTime,1,EMC Unisphere,1
+,0,,0,NA,0,Color Laser Printer,1,Title in case of ENA,1,Dell Laser Printer,1
+,0,,0,NA,0,,0,top\.varsFrametop\.document\.location\.href\s\=\s\'main\.cgi\',1,Q-Link Tape Library,1
+,0,,0,NA,0,,0,<HTML><FRAMESET frameborder=\x22no\x22><FRAME name=\x22m\x22 src=\x22/login2.htm\x22 frameborder=\x22no\x22 scrolling=\x22no\x22 noresize marginhight=0></FRAMESET></HTML>,1,Planet ICS,1
+,0,,0,NA,0,Tumbleweed Validation Authority Server,0,Welcome to the Tumbleweed Validation Authority,1,Tumbleweed,1
+,0,NA,0,NA,0,ACURITE Weather Station,0,ACURITE Weather Station,1,ACURITE Weather Station,1
+,0,NA,0,NA,0,X-320,0,var ioRUnits,1,ControlByWeb X-320 Remote Sensing,1
+,0,,0,NA,0,,0,Cisco Unity Connection,1,Cisco Unity Server,1
+,0,,0,NA,0,Cisco TelePresence MCU,1,www\.cisco\.com,1,Cisco TelePresence,1
+,0,,0,NA,0,XenServer,1,Citrix Systems,1,Citrix Xen,1
+,0,,0,NA,0,Projector LAN Control,0,pjctrl\.cgi\.elf,1,NEC Projector,1
+,0,,0,/INDEX.HTM,0,NXU-2 Status,0,JPS Logo,1,JPS Network Extender,1
+,0,,0,NA,0,XYTRONIX,1,CBW Web Server,1,XYTRONIX Relay,1
+,0,,0,NA,0,Gamatronic GMaCi Power,1,NA,0,GMaCi Power,1
+,0,,0,NA,0,GMaCi Power,1,gama\.jpg,1,GMaCi Power,1
+,0,NA,0,NA,0,VMware View Portal,0,initPRTests,1,VMware View Portal,1
+,0,NA,0,NA,0,VMware View Portal,0,vmware.png,1,VMware View Portal,1
+,0,NA,0,/search\?site=default_collection,1,Search Home,0,Google Home,1,Google Search Appliance,1
+,0,NA,0,/search\?site=default_collection,1,google,2,Google,2,Google Search Appliance,1
+,0,NA,0,/admin/public/index.html,0,Cisco ASDM,1,Cisco Systems,1,Cisco ASDM,1
+,0,NA,0,/sanproject/,0,Jump to StorageNavigator2,0,NA,0,Hitachi Storage Manager,1
+,0,NA,0,NA,0,Print server homepage,0,copyright_en.html,1,SEH Intercon Print Server,1
+,0,NA,0,NA,0,Codian MCU,1,www.codian.com,1,Tandberg Codian VTC,1
+,0,NA,0,NA,0,NA,0,home page for the Seadragon Platform NOT,1,Cisco Communications Manager,1
+,0,NA,0,/_top.html,0,imageRUNNER,1,Remote UI\<br\>Copyright CANON INC,1,Canon Copier,1
+,0,NA,0,/login.php,0,^\d+DS Explorer,1,printHeader7,1,Dell KVM,1
+,0,NA,0,NA,0,^DocuCentre,1,Xerox Co\.\x2c Ltd,1,Xerox DocuCentre,1
+,0,NA,0,NA,0,Web-Manager \d+,1,web.jar,1,Lantronix Adapter,1
+,0,NA,0,NA,0,LTO AutoLoader,1,Click here for web pages in English,1,LTO AutoLoader,1
+,0,NA,0,/login.php,0,MPU\d+DAC Explorer,1,NA,0,Avocent DAC Explorer,1
+,0,NA,0,NA,0,Roland-Ethernet Interface,1,Print Server,1,Roland DG Print Server,1
+,0,NA,0,NA,0,\w\w-M\w\d+,1,EWP_Alert,1,Panasonic Copier,1
+,0,NA,0,NA,0,Snap Server Recovery,0,www.snapappliance.com,1,SNAP Storage,1
+,0,NA,0,NA,0,,0,FRAME name=\x22start\x22 src=\x22index.egi\x22,1,KTINet Switch,1
+,0,NA,0,/index.html,0,NXU-\S\S Configuration Utility: Information,1,NA,0,Raytheon Network Extender,1
+,0,NA,0,NA,0,,0,Bad Request \(Invalid Hostname\),1,Unknown Web Server (Invalid Hostname),1
+,0,,0,/Main.html,0,XPanel:XPANEL,1,Crestron  Electronics,1,Creston E-Control,1
+,0,NA,0,NA,0,RouterOS router configuration page,0,NA,0,MikroTik Router,1
+,0,NA,0,NA,0,Point Manager,0,Point Six\x2c Inc,1,Point Six Receiver,1
+,0,NA,0,NA,0,Lantronix Web Manager,1,NA,0,Lantronix Adapter,1
+,0,NA,0,NA,0,3Com Wireless LAN,1,NA,0,3COM WAP,1
+,0,NA,0,/RpError/SslRequired,0,APC,1,NA,0,APC UPS,2
+,0,NA,0,/,0,Under\sConstruction,2,The site you are trying to view does not currently have a default page,1,Microsoft IIS Web Server (Default IIS web page),1
+,0,NA,0,NA,0,Cisco Systems Login,0,NA,0,Cisco WAP,1
+,0,NA,0,/Device_Information.htm,0,Cisco Systems,1,Cisco ATA,1,Cisco ATA,1
+,0,NA,0,NA,0,,0,Cisco Unified Communications Manager,1,Cisco Communications Manager,1
+,0,NA,0,NA,0,Error 401,0,\<P\>\<H2\>HTTP Error 401\<\/H2\>\<P\>\<STRONG\>,1,Tandberg VTC,1
+,0,NA,0,NA,0,TANDBERG,0,TANDBERG is a leading global provider,1,Tandberg VTC,1
+,0,NA,0,NA,0,NetGear (GS\S+),1,NA,0,NetGear Switch,2
+,0,NA,0,NA,0, administration,0,HauteSpot HauteRouterOS,1,MikroTik HauteSpot WAP,1
+,0,NA,0,NA,0,Hewlett Packard,0,NA,0,HP Printer,1
+,0,NA,0,NA,0,dell\slaser\sprinter\s,2,NA,0,Dell Laser Printer,1
+,0,NA,0,NA,0,Dell\sLaser\s,1,Dell\. All rights reserved,1,Dell Laser Printer,1
+,0,NA,0,NA,0,Dell\s\S+\sLaser\s,1,NA,0,Dell Laser Printer,1
+,0,NA,0,NA,0,,0,the start of Cookie related functionfunction,1,Dell Laser Printer,1
+,0,NA,0,NA,0,AXIS\sStorPoint\sCD\s\S+\s\-,1,NA,0,AXIS StorPoint CD NAS,1
+,0,NA,0,NA,0,^Lexmark,1,NA,0,Lexmark Copier,1
+,0,NA,0,NA,0,9500 Series,1,NA,0,Lexmark 9500 Series Copier,1
+,0,CentreWare Internet Services,0,NA,0,FAILED,0,Xerox Co\.\x2c Ltd,1,Xerox CentreWare MFD,1
+,0,NA,0,NA,0,^ApeosPort,1,Xerox Co\.\x2c Ltd,1,Xerox WorkCentre MFD,1
+,0,NA,0,NA,0,xerox\s,2,NA,0,Xerox WorkCentre MFD,1
+,0,NA,0,NA,0,workcentre\s,2,NA,0,Xerox WorkCentre MFD,1
+,0,NA,0,NA,0,^ExtendNet\s,1,NA,0,Extendnet Print Server,1
+,0,NA,0,NA,0,AXIS\s(\d|\w)+\s\-\sScan Document,1,NA,0,AXIS Communications Print Server,1
+,0,NA,0,NA,0,axis\s\d+\scamera\sserver,2,NA,0,AXIS Webcam,1
+,0,NA,0,NA,0,axis\s\d+\snetwork\scamera\s,2,NA,0,AXIS Webcam,1
+,0,NA,0,NA,0,NA,0,the axis\s\S+\shome\spage,2,AXIS Webcam,1
+,0,NA,0,NA,0,Live view - AXIS,1,function openPopUp,1,AXIS Webcam,1
+,0,NA,0,NA,0,magicolor\s\d{1\x2c4},1,NA,0,Minolta Copier,1
+,0,NA,0,NA,0,^WD ShareSpace,1,NA,0,Western Digital ShareSpace NAS,1
+,0,,0,NA,0,My Book World Edition,1,document\.login\.p_pass\.value = Base64\.encode,1,Western Digitial My Book NAS,1
+,0,NA,0,NA,0,LaCie NAS Administration,1,NA,0,LaCie NAS,2
+,0,NA,0,NA,0,minolta\s,2,NA,0,Konica Minolta Copier,1
+,0,NA,0,/js_error.xml,0,,0,\<MFP\>,1,Konica Minolta Copier,1
+,0,NA,0,NA,0,DYMO Label\s*Writer,1,NA,0,DYMO Label Writer,1
+,0,NA,0,NA,0,NA,0,QUCM Configuration,1,Unknown QUCM,1
+,0,NA,0,NA,0,HP Integrated Lights-Out,1,Hewlett-Packard Development Company,1,HP ILOM,1
+,0,NA,0,NA,0,HP Integrated Lights-Out,1,Compaq Information Technologies,1,HP ILOM,1
+,0,NA,0,NA,0,HP Remote Insight,0,hp.com,1,HP ILOM,1
+,0,NA,0,NA,0,Lantronix WEB-Manager,1,NA,0,Lantronix Switch,3
+,0,NA,0,NA,0,Schneider Automation Web Server,1,NA,0,Schneider Automation Web Server,1
+,0,NA,0,NA,0,,0,indexLanguage\(\x22html\/english\/\x22,1,Schneider Automation Web Server,1
+,0,NA,0,/logon.htm,0,Log On,0,images\/smSchneider.gif,1,Schneider Automation Web Server,3
+,0,NA,0,NA,0,N A V I S P H E R E,1,NA,0,EMC NAVISPHERE,1
+,0,NA,0,NA,0,Navisphere \d+,1,NA,0,EMC NAVISPHERE,1
+,0,NA,0,NA,0,Divar Web Client,0,NA,0,Bosch Divar CCTV,1
+,0,NA,0,NA,0,Divar \d+ Series,1,NA,0,Bosch Divar CCTV,1
+,0,,0,NA,0,,0,divar_mr_wv,1,Bosch Divar CCTV,1
+,0,NA,0,NA,0,Promise WebPAM PROe,0,MM_showHideLayers\.arguments,1,Promise WebPAM PROe,1
+,0,NA,0,NA,0,APC \|,1,NA,0,APC UPS,2
+,0,,0,/home.htm,0,Application Error,0,APC Management Web Server,1,APC UPS,1
+,0,NA,0,NA,0,Cisco,1,\>Cisco\sIP\sPhone,1,Cisco IP Phone,1
+,0,NA,0,NA,0,AVTECH Software.+TemPageR,1,NA,0,AVTECH TemPageR,1
+,0,NA,0,NA,0,AVTECH Software\x2c Inc,1,Environment Monitoring,1,AVTECH TemPageR,1
+,0,NA,0,NA,0,,0,dx4x00_webviewer\.sethost,1,Pelco DX4X00 DVR,1
+,0,NA,0,NA,0,,0,dx4104_webviewer\.sethost,1,Pelco DX4X00 DVR,1
+,0,NA,0,NA,0,ID_EE*SX_Welcome,1,NA,0,VMWare ESX,1
+,0,NA,0,NA,0,ID_ESX_Welcome,1,NA,0,VMWare ESX,1
+,0,NA,0,NA,0,ID_EESX_Welcome,1,NA,0,VMWare ESX,1
+,0,NA,0,NA,0,Welcome to VMware ESX,1,NA,0,VMWare ESX,1
+,0,NA,0,NA,0,Welcome to VMware VirtualCenter,1,NA,0,VMWare VirtualCenter,1
+,0,NA,0,NA,0,ID_WelcomeToVC2,1,NA,0,VMWare VirtualCenter,2
+,0,NA,0,NA,0,\+ ID_Converter_Welcome \+,1,NA,0,VMWare vCenter Converter,1
+,0,level 15 access,0,NA,0,NA,0,NA,0,Cisco Network Device,1
+,0,NA,0,NA,0,Index,0,Serial settings \(baud rate,1,Lantronix UDS,1
+,0,NA,0,/secure/ltx_conf.htm,0,,0,401 Unauthorized,0,Lantronix UDS,1
+,0,NA,0,NA,0,^EPSON Net,1,NA,0,EpsonNet Printer,2
+,0,NA,0,NA,0,Home Page,0,\<frame name\=\x22logo\x22 src\=\x22logo\.htm\x22 scrolling\=\x22no\x22 marginwidth\=\x220\x22 marginheight\=\x220\x22\s+noresize\s+target\=\x22main\x22\>,1,Emerson Network Power,2
+,0,NA,0,NA,0,\+ ID_VC_Welcome \+,1,NA,0,VMWare vSphere,1
+,0,NA,0,NA,0,HP Integrated Lights-Out Login,0,NA,0,HP ILOM,1
+,0,NA,0,NA,0,^ITC Temperature Probe,1,NA,0,Sensatronics Environment Monitor,1
+,0,NA,0,NA,0,^IT Temperature Monitor,1,NA,0,Sensatronics Environment Monitor,1
+,0,NA,0,NA,0,3eTI AirGuard,1,NA,0,3eTI AirGuard WAP,1
+,0,NA,0,NA,0,SyncThru Web Service,0,NA,0,Samsung SyncThru Web Service,1
+,0,NA,0,NA,0,^Tandberg Data,1,NA,0,Tandberg Data SAN,1
+,0,NA,0,NA,0,Login Delay,1,Hewlett-Packard Development Company,1,HP ILOM,1
+,0,NA,0,NA,0,Powered by Google Search Appliance,1,NA,0,Google Search Appliance,1
+,0,NA,0,NA,0,Welcome to the Google Mini,1,NA,0,Google Search Appliance Admin Interface,1
+,0,NA,0,NA,0,Print Services Status Page,0,NA,0,Xerox Printer,1
+,0,NA,0,NA,0,,0,script language\=javascript src\=tyco.js,1,Tyco Video Server,1
+,0,NA,0,NA,0,^Seagate NAS,1,NA,0,Seagate NAS,1
+,0,NA,0,NA,0,Oracle Applications Rapid Install,0,NA,0,Oracle Applications Rapid Install,1
+,0,NA,0,NA,0,,0,BR\d+\w,1,Cisco Network Bridge,1
+,0,NA,0,/wcd/js_error.xml,0,,0,NA,0,Konica Minolta Bizhub,1
+,0,NA,0,NA,0,NA,0,src\=\x22\.\/cgi-bin\/dynamic\/TopFrame\.html\x22 marginwidth,1,Lexmark Copier,1
+,0,NA,0,NA,0,,0,location=\'login.ssi\',1,Sun StorageTek Tape Library,1
+,0,NA,0,NA,0,,0,<FRAME SRC\=\x223uysyst\.htm\x22 NAME\=\x22topall\x22,1,Konica Minolta Copier,1
+,0,NA,0,NA,0,,0,Hewlett-Packard Development Company,1,HP ILOM,1
+,0,NA,0,NA,0,,0,This is the index html file for BDT RMU,1,Dell PowerVault Tape Library,2
+,0,NA,0,NA,0,,0,\>Cisco\sATA\s\d+\s\(SCCP\)\<\/font\>,1,Cisco ATA,1
+,0,NA,0,NA,0,,0,\<body vlink\=black bgcolor=\x22\#99ccff\x22\>\<center\>\<h1\>Invalid Access\<\/h1\>\<\/center\>,1,Cisco ATA,1
+,0,NA,0,NA,0,,0,\>Cisco\sIP\sPhone,1,Cisco IP Phone,1
+,0,NA,0,NA,0,,0,<!DOCTYPE HTML PUBLIC \x22-//W3C//DTD HTML 4.0 Transitional//EN\x22><html>  <head>    <meta http-equiv=\x22Content-Type\x22 content=\x22text/html; charset=ISO-8859-1\x22>    <script language=\x22javascript\x22 src=\x22html/config.js\x22 type=\x22text/javascript\x22></script>    <script language=\x22javascript\x22 src=\x22html/lib/js/tools.js\x22 type=\x22text/javascript\x22></script>    <script language=\x22javascript\x22 src=\x22html/lib/js/index.js\x22 type=\x22text/javascript\x22></script>  </head>  <script language=\x22javascript\x22 type=\x22text/javascript\x22>    <!--//    indexLanguage(\x22html/english/\x22);    //-->    </script></html>,0,Schneider Automation Web Server,2
+,0,NA,0,NA,0,,0,window\.location\.hostname\s\+\s\x22\/rrc\.htm\x22,1,Raritan Remote Console,1
+,0,NA,0,NA,0,,0,NAME\=\x22side\x22 SRC\=\x22MENU\.htm\x22\>\<FRAME NAME\=\x22middle\x22 SRC\=\x22HOME\.htm\x22,1,Extendnet Print Server,1
+,0,NA,0,NA,0,,0,http\:\/\/www\.troygroup\.com\/wireless\/support,1,Troy Wireless ExtendNet Print Server,1
+,0,NA,0,NA,0,,0,FRAME NAME=\x22middle\x22 SRC=\x22HOME.htm\x22,1,Oki Printer,1
+,0,NA,0,NA,0,Login,0,RoboHelp_CSH.js,1,EMC Navisphere Express,1
+,0,NA,0,NA,0,,0,Free Port 80 for other applications in advanced settings,1,TeamViewer Remote Access Tool,1
