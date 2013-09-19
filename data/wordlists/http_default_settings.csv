@@ -1,0 +1,382 @@
+#Format
+#Unique Name, Users, Urls, Success Conditions, Arguments to send, Users to try
+#3
+3COM Switch 1,\x00\x01admin\x00admin\x01tech\x00tech\x01operator\x00operator\x01monitor\x00monitor\x01admin\x00\x01debug\x00synnet\x01root\x00letmein\x01security\x00security\x01manager\x00manager\x01admin\x00comcomcom\x01recovery\x00recovery\x01adm\x00,,,AUTHTYPE\x02BASIC,
+3COM Switch 2,\x00\x01admin\x00admin\x01tech\x00tech\x01operator\x00operator\x01monitor\x00monitor\x01admin\x00\x01debug\x00synnet\x01root\x00letmein\x01security\x00security\x01manager\x00manager\x01admin\x00comcomcom\x01recovery\x00recovery\x01adm\x00,/ipconfig.htm,,AUTHTYPE\x02BASIC,
+3COM WAP 1,admin\x00,/index.htm,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Invalid Login,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02userid=_^_USER_^_&passwd=_^_PASS_^_&Submit=LOGIN,
+3eTI AirGuard WAP 1,crypto\x00officer,,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00form name\=\'login_form\' action\=\'/\',Content-Type\x02application/x-www-form-urlencoded\x01Args\x02username=_^_USER_^_&password=_^_PASS_^_&banner=1&submitbutton=Sign+In\x01Method\x02POST,
+#A
+ACURITE Weather Station 1,,,,,
+ADIC Scalar NAS 1,admin\x00password\x01admin\x00secure,/index.htm,CODE\x02302\x01Location\x02homeview.htm,Content-Type\x02application/x-www-form-urlencoded\x01Args\x0CheckForOthers=1&LDAPDomain=&username=_^_USER_^_&password=_^_PASS_^_,
+Adobe RoboHelp 1,,,,,
+Allied Telesis Switch 1,,,,,manager\x00friend\x01manager\x00manager
+Amanda Smart Network Telephony 1,\x00996\x01\x009997,/context/redirect,,AUTHTYPE\x02BASIC,
+American Dynamics Video 1,administrator\x00pass,/video.htm,,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02loginname=_^_USER_^_&loginpassword=_^_PASS_^_&username=&pin=,
+American Dynamics Video 2,administrator\x00pass,/video.htm,,AUTHTYPE\x02BASIC,
+American Megatrends MegaRac 1,root\x00superuser,/rpc/WEBSES/create.asp,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Failure_Login,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02WEBVAR_USERNAME=_^_USER_^_&WEBVAR_PASSWORD=_^_PASS_^_\x01Method\x02POST,
+AND Speaker 1,,,,,
+Andover Controls Continuum Server 1,acc\x00acc,/Main,,AUTHTYPE\x02BASIC,
+Apache No Index 1,,,,,
+Apache Tomcat/Coyote 1,admin\x00\x01admin\x00admin\x01admin\x00tomcat\x01tomcat\x00tomcat\x01tomcat\x00changethis\x01root\x00changethis\x01root\x00root,/manager/html\x01/admin/login.jsp,,AUTHTYPE\x02BASIC,
+Apache Web Server 1,,,,,
+APC InfraStruXure 1,,,,,apc\x00apc
+APC InfraStruXure 2,apc\x00apc,/nbc/status/Status,,AUTHTYPE\x02BASIC,
+APC NetBotz Environmental Monitoring 1,netbotz\x00netbotz,,,AUTHTYPE\x02BASIC,
+APC UPS 1,apc\x00apc,,,AUTHTYPE\x02BASIC,
+APC UPS 2,apc\x00apc,/Forms/login1,CODE\x02303\x01LOCATION\x02\x00m\x00\x00home.htm,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02login_username=_^_USER_^_&login_password=_^_PASS_^_&submit=Log+On\x01Method\x02POST,
+Apple Embedded Web Server 1,,,,,
+AtHoc IWSAlerts Management System 1,,,,,
+Audiocodes VOIP (SIP gateway) 1,Admin\x00Admin,,,AUTHTYPE\x02BASIC,
+Avocent DAC Explorer 1,,,,,admin\x00
+Avocent DSView 1,,,,,
+AVTECH TemPageR 1,,,,,
+AXIS Communications Print Server 1,root\x00pass,/admin/this_server/this_server.shtml,,AUTHTYPE\x02BASIC,
+Axis StorPoint 1,root\x00pass,/this_server/this_server.shtml,,AUTHTYPE\x02BASIC,
+AXIS Webcam 1,\x00\x01root\x00pass,/cgi-bin/config.html,,AUTHTYPE\x02BASIC,
+AXIS Webcam 2,admin\x00\x01root\x00pass,/admin.cgi\x01/view/index.shtml,,AUTHTYPE\x02BASIC,
+#B
+BlueCoat Packet Shaper 1,,,,,
+Bosch Dibos CCTV 1,,,,,
+Bosch Divar CCTV 1,,,,,
+Bosch WebDVR 1,,,,,
+Brocade FastIron Switch 1,admin\x00password\x01admin\x00admin123\x01root\x00fibranne\x01root\x00fivranne,/Home,,AUTHTYPE\x02BASIC,
+Brocade Mobility WAP 1,,,,,admin\x00admin123
+Brother Printer 1,admin\x00access\x01user\x00access,/admin/administrator_settings.html,,AUTHTYPE\x02BASIC,
+Buffalo LinkStation 1,admin\x00password,/cgi-bin/top.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Either the User Name or Password is incorrect,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02txtAuthLoginUser=_^_USER_^_&txtAuthLoginPassword=_^_PASS_^_&gPage=top&gMode=auth&txtHelpSearch=&gPage=top&gMode=&gType=auth&gKey=&gSSS=&gRRR=&hiddenDummyText=dummy\x01Method\x02POST,
+Buffalo PCAST media server 1,,,,,
+Buffalo TeraStation 1,admin\x00password,/cgi-bin/ts.cgi,,AUTHTYPE\x02BASIC,
+Buffalo TeraStation Pro 1,admin\x00password,/cgi-bin/top.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Either the User Name or Password is incorrect.,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02txtAuthLoginUser=_^_USER_^_&txtAuthLoginPassword=_^_PASS_^_&gPage=top&gMode=top&txtHelpSearch=&gPage=top&gMode=top&gType=auth&gKey=undefined&gSSS=&gRRR=&gPid=0x00002005&hiddenDummyText=dummy\x01Method\x02POST\x01Referer\x02/cgi-bin/top.cgi\x01Keep-Alive\x02true,
+Buffalo WAP 1,root\x00,,,AUTHTYPE\x02BASIC,
+#C
+Cabletron Switch 1,,/module/config/PortConfig.html,,,
+Canon Copier 1,,/cindex50.cgi?Dummy=1187710434819\x01/cdntcp.cgi?Flag=Init_Data&PageFlag=c_d_nip.tpl&Dummy=1187710975725,,,
+Canon Fiery Printer 1,,,,,
+Canon MFD 1,,,,,
+CA Unicenter Service Desk on Apache-Coyote 1,,,,,
+CA Unified Communications Monitor 1,,,,,
+# Cisco
+Cisco ATA 1,,,,,
+Cisco Call Manager 1,admin\x00admin,/ccmadmin/WEB-INF/pages/j_security_check,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Log on failed\x01CONTENT2\x02!\x00m\x00\x00Logon failed,Referer\x02/ccmadmin/showHome.do\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02appNav=ccmadmin&j_username=_^_USER_^_&j_password=_^_PASS_^_&submit=Submit\x01Method\x02POST,
+Cisco Camera 1,admin\x00admin,/adm/file.cgi,,Args\x02next_file=setup.htm,AUTHTYPE\x02BASIC
+Cisco CIUS,,,,,
+Cisco IP Phone 1,,,,,
+Cisco IP VTC 1,admin\x00cisco,/goform/loginCgi,CONTENT\x02!\x00m\x00\x00authFailed=1,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02rvu=_^_USER_^_&rvp=_^_PASS_^_&requestedURL=L2FkbWluL2d3L2RlZmF1bHQuYXNw,
+Cisco IP VTC,admin\x00cisco,/wsgi/sessions/open,CODE\x02303\x01Location\x02/wsgi/sessions/new,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02username=_^_USER_^_&password=_^_PASS_^_&authform=Sign+In\x01Method\x02POST,
+Cisco IPVC,,,,,admin\x00cisco
+Cisco Network Bridge 1,\x00\x01admin\x00admin\x01cisco\x00cisco\x01Administrator\x00changeme\x01enable\x00cisco\x01\x00admin\x01\x00cisco,/w,,AUTHTYPE\x02BASIC,
+Cisco Network Device 1,\x00\x01admin\x00admin\x01cisco\x00cisco\x01Administrator\x00changeme\x01enable\x00cisco\x01\x00admin\x01\x00cisco,/,,AUTHTYPE\x02BASIC,
+Cisco Network Device - Nexus 1,,,,,
+Cisco Network Device - Cisco Device Manager 1,,,,,
+Cisco Network Device - SB,\x00\x01admin\x00admin\x01cisco\x00cisco\x01Administrator\x00changeme\x01enable\x00cisco\x01\x00admin\x01\x00cisco,/System.xml,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Bad User or Password,Args\x02action=login&user=_^_USER_^_&password=^_^PASS_^_
+Cisco TelePresence 1,,,,,
+Cisco Unity Express 1,,,,,
+Cisco Unity Server 1,,,,,
+Cisco VPN Concentrator 1,admin\x00admin,/admin.html,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Invalid Login,Referer\x02/admin.html\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02login=_^_USER_^_&password=_^_PASS_^_&ok=Login&logintime=123456789\x01Method\x02POST,
+Cisco WAP 1,admin\x00admin\x01\x00,/screens/frameset.html,,AUTHTYPE\x02BASIC,
+Cisco Wireless Control System 1,admin\x00admin,/webacs/loginAction.do,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00valid username and password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02action=login&username=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Cisco Communications Manager 1,,,,,
+Citrix Server 1,,,,,
+Citrix Xen 1,,,,,
+ControlByWeb X-320 Remote Sensing 1,,,,,
+# Cyclades
+Cyclades Out-of-band Management 1,root\x00tslinux\x01super\x00surt,/goform/Dmf,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Access Denied: Wrong Password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02url=%2Fgoform%2fMainPageTable&path=%2Fgoform%2fMainPageTable&login=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Cyclades Out-of-band Management 2,root\x00tslinux\x02super\x00surt,/goform/CheckLogin,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00loginError,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02urlOk=%2fredirect.asp&urlError=%2flogin.asp&request=1528&system.login.username=_^_USER_^_&system.login.password=_^_PASS_^_\x01Method\x02POST,
+Cyclades Out-of-band Management 3,root\x00tslinux\x02super\x00surt,/goform/CheckLogin,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Access Denied: Wrong Password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02url=%2Fgoform%2fMainPageTable&path=%2Fgoform%2fMainPageTable&login=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Cyclades Avocent Switch,root\x00tslinux,/splashscreen.asp,,AUTHTYPE\x02BASIC,
+# D
+Dedicated Micros Camera 1,,,,,dm\x00web
+Default OSX Apache web page 1,,,,,
+Default Apache web page 1,,,,,
+Dell Chassis Management Controller 1,,,,,root\x00calvin
+Dell Color Laser Printer 1,,/ews/setting/setews.htm,,,
+Dell Color Laser Printer 2,admin\x00,/goform/form_printersystemset,,Args\x02duh=1\x01Method\x02POST\x01AUTHTYPE\x02BASIC,
+Dell EqualLogic SAN 1,,,,,grpadmin\x00grpadmin
+Dell ILOM 1,admin\x00password,,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Authentication Failure,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02slink=&username=_^_USER_^_&password=_^_PASS_^_&Button2=Log+In\x01Method\x02POST,
+Dell ILO1 ,root\x00calvin,/data/login,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Login failed.,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Dell KVM 1,,,,,Admin\x00
+Dell Laser Printer 1,,/cgi-bin/dynamic/config/secure/changepass.html\x01/config/security,,,
+Dell PowerVault Tape Library 1,root\x00calvin\x01admin\x00powerapp,/loginverify.htm,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Login incorrect for ,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02loginname=_^_USER_^_&loginpassword=_^_PASS_^_&Submit=Submit\x01Method\x02POST,
+Dell PowerVault Tape Library 2,\x00secure,/login.ssi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Incorrect password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user_level=3&password=_^_PASS_^_&login=Log+in\x01Method\x02POST,
+Dell PowerVault Tape Library 3,root\x00calvin\x01admin\x00powerapp,/config_ops.html,,AUTHTYPE\x02BASIC,
+Dell Remote Access Controller 1,root\x00calvin,/cgi/login,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00An error occurred when logging in.,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user=_^_USER_^_&hash=_^_PASS_^_\x01Method\x02POST,
+Dell Remote Access Controller 2,,,,,root\x00calvin
+#Dell Remote Access Controller 2,root\x00calvin,/cgi-bin/webcgi/login,CODE\x02302\x01Location\x02\x00m\x00\x00/cgi-bin/webcgi/main,Content-Type\x02application/x-www-form-urlencoded\x01cookie\x02sid=2146191424\x01SSL\x021\x01Args\x02user=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Dell Remote Access Controller 3,root\x00calvin,/data/login,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Login failed.,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Dell Remote Access Controller 4,,,,,root\x00calvin
+Dell Switch 1,root\x00calvin\x01root\x00powerapp\x01admin\x00admin,,,AUTHTYPE\x02BASIC,
+Digi One Connect SP 1,root\x00dbps\x01root\x00password\x01root\x00Netsilicon,/Forms/login_1,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02cache=&protocol=http&username=_^_USER_^_&password=_^_PASS_^_&btLogin=Login\x01Method\x02POST,
+Digi Switch 1,root\x00dbps,/index.htm,,AUTHTYPE\x02BASIC,
+Digi One Print Server 1,root\x00dbps,/,,AUTHTYPE\x02BASIC,
+Digiop WebAgent Camera 1,,,,,
+DigiTech Papervision 1,Admin\x00Admin,/Login.ASP,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00then type your password again,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02hState=1&txtEntityID=1&txtUser=_^_USER_^_&txtPassword=_^_PASS_^_&x=0&y=0\x01Method\x02POST,
+DYMO Label Writer 1,admin\x00admin,/generalconfig.htm,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Sorry\x2c your login failed,Referer\x02/top.htm\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02username_value=_^_USER_^_&password_value=_^_PASS_^_\x01Method\x02POST,
+D-Link WAP 1,admin\x00,/html/HomeWizard.html,,AUTHTYPE\x02BASIC,
+D-Link Print Server,,/Config.htm,,,
+# E
+Eaton UPS 1,admin\x00admin,/set_net.htm,,AUTHTYPE\x02BASIC,
+EMC Navisphere Express 1,,,,,nasadmin\x00nasadmin
+EMC NAVISPHERE 1,,,,,
+EMC Unisphere 1,,,,,admin\x00Password123#
+Emerson AMX Controller 1,\x00,/web/root/webControl.xml,,,
+Emerson Network Power 1,Liebert\x00Liebert\x01Liebert\x00,/config/configNetwork.htm,,AUTHTYPE\x02BASIC,
+Emerson Network Power 2,Liebert\x00Liebert\x01Liebert\x00,/login.htm,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Error: log in failed,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02T1=_^_USER_^_&T2=_^_PASS_^_&B1=+OK+\x01Method\x02POST,
+EndRun Technologies NTP Appliance 1,,,,,root\x00endrun_1\x01cntpuser\x00Praecis
+Epson Printer 1,,/csnmp20.htm,,,
+Epson Printer 2,,/Ctcpip.htm,,,
+Epson Workforce MFD 1,,,,,
+Extendnet Print Server 1,admin\x00extendnet\x01admin\x00admin,/LOGIN.HTM,,AUTHTYPE\x02BASIC,
+Extron TLP 710TV 1,,,,,
+# F
+FabricOS Switch Explorer 1,admin\x00password\x01root\x00fibranne\x01root\x00fivranne,/ZoneAdmin.html,,AUTHTYPE\x02BASIC,
+Foundry Network Device 1,\x00\x01admin\x00admin,/Home,,AUTHTYPE\x02BASIC,
+# G
+GMaCi Power 1,,,,,
+GigaMon G-Vue Tap 1,,,,,
+Google Search Appliance 1,,,,,
+Google Search Appliance Admin Interface 1,,,,,
+Google Earth Appliance 1,,,,,
+# H
+HikVision DVR 1,,,,,admin\x0012345
+Hitachi Storage Manager 1,,,,,
+#HP
+HP DesignJet Printer 1,\x00\x01admin\x00hp.com,/hp/device/webAccess/index.htm?content=security&op=access_control,CODE\x02200\x01CONTENT\x02\x00m\x00\x00Set the administrator user account,,
+HP DesignJet Printer 2,admin\x00hp.com\x01admin\x00admin,/tcp_param.htm,,Referer\x02/tcp_summary.htm\x01AUTHTYPE\x02BASIC,
+HP Digital Sender 1,\x00\x01admin\x00hp.com,/this.digitalsender?ProcessRequest=html&cat1=1&cat2=1&cat3=2&cat4=0&mode=text,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00password\-verification\sfailed\.,Args\x02Eval=Eval&jl.23.1=3&view=View+or+Change+IP+Information\x01Method\x02POST,
+HP ILOM 1,,,,,admin\x00admin
+# uses javascript to send authentication, no easy way to replicate
+HP Jetadmin 1,,,,,\x00\x01admin\x00hp.com
+HP Photosmart Printer 1,,/wired_ifc.htm?adaptorID=0,,,
+HP Power Manager 1,,,,,admin\x00admin
+# crappy Java interface, too slow and old move on
+HP Printer 1,,,,,
+HP Printer 2,,/hp/jetdirect/tcp_param.htm\x01/hp/device/networkingIndex.html\x01/hp/device/device.html\x01/SSI/Auth/ip_config.htm\x01/SSI/Auth/ip_configuration.html\x01/device.htm\x01/menu.htm\x01/set_config_networkIP.html?tab=Networking&menu=NetIPConfig\x01/hp/device/this.LCDispatcher?nav=hp.DeviceStatus&action=doLogin\x01/network_settings_form.htm,,,
+HP Printer 3,,/hp/device/this.LCDispatcher?nav=hp.ConfigDevice,,,
+HP Scanner 1,,/hp/device/this.LCDispatcher?nav=hp.DeviceStatus&action=doLogin,,,
+HP StorageWorks Ethernet Controller 1,root\x00password\x01admin\x00password,/fs/config/system.htm,,AUTHTYPE\x02BASIC,
+HP Officejet 1,,/index.htm?cat=settings&page=faxAddrBook1,,,
+Hewlett-Packard Switch 1,,,,,
+# I
+Imagistics Copier 1,admin\x001234,/index_admin.html,,AUTHTYPE\x02BASIC,
+Infortrend RAID 1,Information\x00\x01Configuration\x00,/cgi-bin/NasConf.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00Password Mismatch,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02sid=0&retIdxCnt=0&cmdNo=1&fileName=main.html&userName=_^_USER_^_&password2=_^_PASS_^_,
+Inter-Tel IP Phone 1,,,,,
+Intuity Audix PBX1 ,,,,,Craft\x00craftpw
+Invalid Host1,,,,,
+IOMega NAS 1,,/bootup/welcome.htm,CODE\x02200\x01CONTENT\x02\x00m\x00\x00This is your first time using this system,,
+IOMega NAS 2,,,,,root\x00ADMIN
+IOMega Print Server 1,,/index12.HTM,,,
+IsItUp Network Monitor 1,,,,,(checkme)
+IVC Webcam 1,,,,,
+# J
+JPS Network Extender 1,\x00lightfoot,/nxu2config.html,,AUTHTYPE\x02BASIC,
+# K
+KIP Print Server 1,,,,,admin\x00kip
+Konica Minolta Bizhub 1,\x0012345678\x01\x0000000000\x01\x00sysadm\x01\x00MagiMFP\x01\x000000\x01\x00000000\x01\x00administrator,/wcd/login.cgi,CONTENT\x02\x00m\x00\i\x00URL=\.\/a_system\.xml,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02func=PSL_LP1_LOG&R_ADM=AdminAdmin&password=_^_PASS_^_\x01Method\x02POST,
+Konica Minolta MFD 1,admin\x0000000000,/TOP.CGI,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00Incorrect\svalue\:\sAdmin\sPassword,Referer\x02/top.htm\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02AdminInCheck=1&Qbtt=_^_PASS_^_&submit=Log-in\x01Method\x01POST,
+Konica Minolta Copier 1,\x0000000000,/2UYSMRY.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00\/\/ -->,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02AdminInCheck=1&http_pwd=_^_PASS_^_&submit=Log-in\x01Method\x02POST,
+KTINet Switch 1,\x00123,/index.egi,,ARGS\x02PW=_^_PASS_^_,
+Kyocera Copier 1,\x00\x01root\x00root\x01admin\x00admin,/eng/tcp/main.htm\x01/eng/htm/setup/ps_tcp.htm\x01/adv/IPGen.htm,,AUTHTYPE\x02BASIC,
+Kyocera MFD 1,admin\x00public,/adv/IPGen.htm,,AUTHTYPE\x02BASIC,
+Kyocera Network Scanner 1,,/eng/htm/setup/system.htm,,,
+# L
+LaCie NAS 1,administrator\x00admin,/nas.admin,,AUTHTYPE\x02BASIC,
+LaCie NAS 2,administrator\x00admin,/cgi-bin/browse?share=share,,AUTHTYPE\x02BASIC,
+Lantronix Switch 1,,,,,\x00password
+Lantronix Switch 2,,,,,sysadmin\x00PASS\x01login\x00access\x01root\x00system
+Lantronix Switch 3,,,,,
+Lantronix Adapter 1,,,,,sysadmin\x00PASS\x01login\x00access\x01root\x00system\x01\x00password
+Lantronix UDS 1,,,,,
+Lenel Access Control 1,,,,,admin\x00demo
+Lexmark Laser Printer 1,,/srvcset/emlusrlst.htm,,,
+Lexmark Printer 1,,,,,
+Lexmark 9500 MFD 1,,/cgi-bin/dynamic/config/gen/ip.html,,,
+Lexmark Copier 1,,/port_0/config/ip\x01/cgi-bin/dynamicpf/pf/config/gen/ip.html\x01/cgi-bin/dynamic/config/net/network.html\x01/cgi-bin/dynamic/config/net/ip.html,,,
+Lexmark Copier 2,,/setting/setipprot.htm,,,
+Lexmark Copier 3,\x00password,/form/frm_netapplic\x01form/frm_netstatus,CONTENT\x02!\x00m\x00\x00Password Incorrect,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02C1=1&mailsize=0&C2=1&C7=1&C3=1&C4=1&C5=1&T1=9100&C6=1&mDNS=1&mDNSname=Lexmark+X500+Series+%2800e216%29&admin=_^_PASS_^_d&Submit=Submit\x01Method\x02POST,
+# M
+MapServer 4 Windows 1,,,,,
+McAfee Epolicy Orchestrator 1,,,,,
+McData SanPilot 1,Administrator\x00password,/change_password.htm,,AUTHTYPE\x02BASIC,
+MGE UPS 1,MGEUPS\x00MGEUPS,/UPS/pas_net.htm,,AUTHTYPE\x02BASIC,
+MicroNet Platinum NAS 1,admin\x00admin,/usr/usrgetform.html?name=index,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Authentication error: Invalid Password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02lang=&username=_^_USER_^_&pwd=_^_PASS_^_&login_btn=Login\x01Method\x02POST,
+Microsoft IIS Web Server 1,,,,,
+Microsoft IIS Web Server 1,,,,,
+Microsoft IIS Web Server (Access Restricted) 1,,,,,
+Microsoft IIS Web Server (Password Required) 1,,,,,
+Microsoft IIS Web Server (No Index/Directory Listing Denied) 1,,,,,
+Microsoft IIS Web Server (Default IIS web page) 1,,,,,
+Microsoft IIS Web Server (Default IIS7 web page) 1,,,,,
+Microsoft IIS Web Server (IIS No Index) 1,,,,,
+MicroTek Ethernet 1,,,,,investigate me
+MikroTik HauteSpot WAP 1,admin\x00,/cfg,CONTENT\x02!\x00m\x00i\x00invalid user name or password,cookie\x02sid=0\x01Args\x02process=login&page=interface&backpage=%2F&user=_^_USER_^_&password=_^_PASS_^_&input=Login,
+MikroTik Router 1,admin\x00,/jsproxy,CODE\x02200,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02username=_^_USER_^_\x01Method\x02POST,admin\x00
+Minolta Copier 1,\x00\x01admin\x00administrator\x01\x001234,/account,,AUTHTYPE\x02BASIC,
+Minolta Copier 2,\x0000000000,/F0_499_AdminLogin.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\i\x00H46_499_Invalid_Pwd.htm,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02AdminInCheck=1&http_pwd=_^_PASS_^_&submit=Log-in\x01Method\x02POST,
+Mitel Communications Director 1,,,,,system\x00password\x01system\x00mnet
+Motorola Canopy WAP 1,root\x00,/login.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Unauthorized,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02CanopyUsername=_^_USER_^_&CanopyPassword=_^_PASS_^_&ok=OK\x01Method\x02POST,
+Moxa Switch 1,,/02.htm,,,
+Moxa NPort 5100 1,,,,,
+MRV Remote Console 1,,,,,InReach\x00access
+Multitech IP Phone 1,admin\x0000000,/ip.htm,,AUTHTYPE\x02BASIC,
+Multitech VOIP Gateway 1,admin\x0000000,,,AUTHTYPE\x02BASIC,
+Multitech MultiAccess Communications Server 1,admin\x0000000,/Authenticate.php,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Login Incorrect,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02PHPSESSID=372e24651b6c8a03dd86b10987f5cc9d&UserName=_^_USER_^_&PassWord=_^_PASS_^_&submit=+++Login++\x01Method\x02POST,
+# N
+NEC Webcam 1,,,,,
+NetApp NetCache 1,,,,,
+NetApp NAS 1,,,,,
+NetApp Operations Manager 1,,,,,
+Netgear Print Server 1,\x00\x01\x00ps121,/Tcp_ip.htm,,AUTHTYPE\x02BASIC,
+Netgear ReadyNAS 1,,,,,admin\x00infrant1\x02admin\x00netgear1
+NetGear Switch 1,admin\x00\x01admin\x001234\x01admin\x00password\x01super\x00577364\x01superman\x0021241036\x01admin\x00draadloos,/base/web_main.html,,AUTHTYPE\x02BASIC,
+NetGear Switch 2,\x00password,/login.cgi,CODE\x02302,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02password=_^_PASS_^_&rtime=\x01Method\x02POST,
+Netscape Enterprise Web Server 1,,,,,
+Nexsan NAS 1,,/admin/hostcfg.as,,,
+Nexsan SATABeast NAS 1,,/goform/formlogin,,,
+Nexsan NAS 2,ADMIN\x00PASSWORD\x01\x00,/admin/hostcfg.asp,,AUTHTYPE\x02BASIC,
+Niksun NetDetector 1,,,,,vcr\x00NetVCR
+Nokia IPSO appliance 1,,,,,
+Nortel Networks ICB 1,,,,,
+# O
+Oce Print Server 2,,,,,
+Oce Print Server 1,,,,,\x00SysAdm
+Oracle Applications Rapid Install 1,,,,,
+Oracle Application Server 1,,,,,
+Oracle ILOM 1,,,,,root\x00changeme
+Oracle XDB 1,brio_admin\x00brio_admin\x01brugernavn\x00adgangskode\x01brukernavn\x00password\x01bsc\x00bsc\x01bug_reports\x00bug_reports\x01calvin\x00hobbes\x01catalog\x00catalog\x01cct\x00cct\x01cdemo82\x00cdemo82\x01cdemo82\x00cdemo83\x01cdemo82\x00unknown\x01cdemocor\x00cdemocor\x01cdemorid\x00cdemorid\x01cdemoucb\x00cdemoucb\x01cdouglas\x00cdouglas\x01ce\x00ce\x01centra\x00centra\x01central\x00central\x01cids\x00cids\x01cis\x00cis\x01cis\x00zwerg\x01cisinfo\x00cisinfo\x01cisinfo\x00zwerg\x01clark\x00cloth\x01cn\x00cn\x01company\x00company\x01compiere\x00compiere\x01cqschemauser\x00password\x01cquserdbuser\x00password\x01crp\x00crp\x01cs\x00cs\x01csc\x00csc\x01csd\x00csd\x01cse\x00cse\x01csf\x00csf\x01csi\x00csi\x01csl\x00csl\x01csmig\x00csmig\x01csp\x00csp\x01csr\x00csr\x01css\x00css\x01ctxdemo\x00ctxdemo\x01ctxsys\x00change_on_install\x01ctxsys\x00ctxsys\x01ctxsys\x00unknown\x01cua\x00cua\x01cue\x00cue\x01cuf\x00cuf\x01cug\x00cug\x01cui\x00cui\x01cun\x00cun\x01cup\x00cup\x01cus\x00cus\x01cz\x00cz\x01dbi\x00mumblefratz\x01hr\x00change_on_install\x01hr\x00hr\x01hri\x00hri\x01hvst\x00hvst\x01hxc\x00hxc\x01hxt\x00hxt\x01iba\x00iba\x01ibe\x00ibe\x01ibp\x00ibp\x01ibu\x00ibu\x01iby\x00iby\x01icdbown\x00icdbown\x01icx\x00icx\x01idemo_user\x00idemo_user\x01ieb\x00ieb\x01iec\x00iec\x01iem\x00iem\x01ieo\x00ieo\x01ies\x00ies\x01ieu\x00ieu\x01iex\x00iex\x01ifssys\x00ifssys\x01igc\x00igc\x01igf\x00igf\x01igi\x00igi\x01igs\x00igs\x01igw\x00igw\x01imageuser\x00imageuser\x01imc\x00imc\x01imedia\x00imedia\x01imt\x00imt\x01#internal\x00oracle\x01#internal\x00sys_stnt\x01internal\x00oracle\x01internal\x00sys_stnt\x01inv\x00inv\x01ipa\x00ipa\x01ipd\x00ipd\x01iplanet\x00iplanet\x01isc\x00isc\x01itg\x00itg\x01ja\x00ja\x01jake\x00passwo4\x01je\x00je\x01jg\x00jg\x01jill\x00passwo2\x01jl\x00jl \x01jmuser\x00jmuser\x01john\x00john\x01jones\x00steel\x01jtf\x00jtf\x01jtm\x00jtm\x01jts\x00jts\x01jward\x00airoplane\x01kwalker\x00kwalker\x01l2ldemo\x00l2ldemo\x01lbacsys\x00lbacsys\x01librarian\x00shelves\x01manprod\x00manprod\x01mark\x00passwo3\x01mascarm\x00manager\x01master\x00password\x01mddata\x00mddata\x01mddemo\x00mddemo\x01mddemo_clerk\x00clerk\x01mddemo_clerk\x00mgr\x01mddemo_mgr\x00mddemo_mgr\x01mdsys\x00mdsys\x01me\x00me\x01mfg\x00mfg\x01mgr\x00mgr\x01mgwuser\x00mgwuser\x01migrate\x00migrate\x01miller\x00miller\x01mmo2\x00mmo2\x01mmo2\x00mmo3\x01mmo2\x00unknown\x01modtest\x00yes\x01moreau\x00moreau\x01mrp\x00mrp\x01msc\x00msc\x01msd\x00msd\x01mso\x00mso\x01msr\x00msr\x01mts_user\x00mts_password\x01mtssys\x00mtssys\x01mwa\x00mwa\x01mxagent\x00mxagent\x01names\x00names\x01neotix_sys\x00neotix_sys\x01nneul\x00nneulpass\x01nom_utilisateur\x00mot_de_passe\x01nomeutente\x00password\x01nome_utilizador\x00senha\x01nume_utilizator\x00parol\x01oas_public\x00oas_public\x01ocitest\x00ocitest\x01ocm_db_admin\x00ocm_db_admin\x01odm\x00odm\x01odm_mtr\x00mtrpw\x01ods\x00ods\x01ods_server\x00ods_server\x01odscommon\x00odscommon\x01oe\x00change_on_install\x01oe\x00unknown\x01oe\x00oe\x01oemadm\x00oemadm\x01oemrep\x00oemrep\x01okb\x00okb\x01okc\x00okc\x01oke\x00oke\x01oki\x00oki\x01oko\x00oko\x01okr\x00okr\x01oks\x00oks\x01okx\x00okx\x01olapdba\x00olapdba\x01olapsvr\x00instance\x01olapsvr\x00olapsvr\x01olapsys\x00manager\x01olapsys\x00olapsys\x01omwb_emulation\x00oracle\x01ont\x00ont\x01oo\x00oo\x01openspirit\x00openspirit\x01opi\x00opi\x01oracache\x00oracache\x01oracle\x00oracle\x01oradba\x00oradbapass\x01oraprobe\x00oraprobe\x01oraregsys\x00oraregsys\x01orasso\x00orasso\x01orasso_ds\x00orasso_ds\x01orasso_pa\x00orasso_pa\x01orasso_ps\x00orasso_ps\x01orasso_public\x00orasso_public\x01orastat\x00orastat\x01orcladmin\x00welcome\x01ordcommon\x00ordcommon\x01data_schema\x00laskjdf098ksdaf09\x01dbsnmp\x00dbsnmp\x01dbvision\x00dbvision\x01ddic\x00199220706\x01demo\x00demo\x01demo8\x00demo8\x01demo9\x00demo9\x01des\x00des\x01des2k\x00des2k\x01dev2000_demos\x00dev2000_demos\x01diane\x00passwo1\x01dip\x00dip\x01discoverer_admin\x00discoverer_admin\x01dmsys\x00dmsys\x01dpf\x00dpfpass\x01dsgateway\x00dsgateway\x01dssys\x00dssys\x01dtsp\x00dtsp\x01eaa\x00eaa\x01eam\x00eam\x01earlywatch\x00support\x01east\x00east\x01ec\x00ec\x01ecx\x00ecx\x01ejb\x00ejb\x01ejsadmin\x00ejsadmin\x01ejsadmin\x00ejsadmin_password\x01emp\x00emp\x01eng\x00eng\x01eni\x00eni\x01estoreuser\x00estore\x01event\x00event\x01evm\x00evm\x01example\x00example\x01exfsys\x00exfsys\x01extdemo\x00extdemo\x01extdemo2\x00extdemo2\x01fa\x00fa\x01fem\x00fem\x01fii\x00fii\x01finance\x00finance\x01finprod\x00finprod\x01flm\x00flm\x01fnd\x00fnd\x01foo\x00bar\x01fpt\x00fpt\x01frm\x00frm\x01frosty\x00snowman\x01fte\x00fte\x01fv\x00fv\x01gl\x00gl\x01gma\x00gma\x01gmd\x00gmd\x01gme\x00gme\x01gmf\x00gmf\x01gmi\x00gmi\x01gml\x00gml\x01gmp\x00gmp\x01gms\x00gms\x01gpfd\x00gpfd\x01gpld\x00gpld\x01gr\x00gr\x01hades\x00hades\x01hcpark\x00hcpark\x01hlw\x00hlw\x01hr\x00unknown\x01abm\x00abm\x01adams\x00wood\x01adldemo\x00adldemo\x01admin\x00jetspeed\x01admin\x00welcome\x01administrator\x00admin\x01administrator\x00administrator\x01ahl\x00ahl\x01ahm\x00ahm\x01ak\x00ak\x01alhro\x00xxx\x01alhrw\x00xxx\x01alr\x00alr\x01ams\x00ams\x01amv\x00amv\x01andy\x00swordfish\x01anonymous\x00anonymous\x01ap\x00ap\x01applmgr\x00applmgr\x01applsys\x00applsys\x01applsys\x00apps\x01applsys\x00fnd\x01applsyspub\x00applsyspub\x01applsyspub\x00pub\x01applsyspub\x00fndpub\x01applysyspub\x00fndpub\x01applysyspub\x00pub\x01apps\x00apps\x01apps_mrc\x00apps\x01appuser\x00apppassword\x01aq\x00aq\x01aqdemo\x00aqdemo\x01aqjava\x00aqjava\x01aquser\x00aquser\x01ar\x00ar\x01asf\x00asf\x01asg\x00asg\x01asl\x00asl\x01aso\x00aso\x01asp\x00asp\x01ast\x00ast\x01atm\x00sampleatm\x01audiouser\x00audiouser\x01aurora$jis$utility$\x00invalid\x01aurora$orb$unauthenticated\x00invalid\x01ax\x00ax\x01az\x00az\x01bc4j\x00bc4j\x01ben\x00ben\x01bic\x00bic\x01bil\x00bil\x01bim\x00bim\x01bis\x00bis\x01biv\x00biv\x01bix\x00bix\x01blake\x00paper\x01blewis\x00blewis\x01bom\x00bom\x01sysman\x00sysman\x01system\x00change_on_install\x01system\x00d_syspw\x01system\x00manager\x01system\x00oracle\x01system\x00systempass\x01system\x00system\x01system\x00manag3r\x01system\x00oracl3\x01system\x000racle\x01system\x000racl3\x01system\x00oracle8\x01system\x00oracle9\x01system\x00oracle9i\x01system\x000racle9i\x01system\x000racl39i\x01tahiti\x00tahiti\x01talbot\x00mt6ch5\x01tdos_icsap\x00tdos_icsap\x01tec\x00tectec\x01test\x00passwd\x01test\x00test\x01test_user\x00test_user\x01testpilot\x00testpilot\x01thinsample\x00thinsamplepw\x01tibco\x00tibco\x01tip37\x00tip37\x01tracesvr\x00trace\x01travel\x00travel\x01tsdev\x00tsdev\x01tsuser\x00tsuser\x01turbine\x00turbine\x01ultimate\x00ultimate\x01um_admin\x00um_admin\x01um_client\x00um_client\x01user\x00user\x01user_name\x00password\x01user0\x00user0\x01user1\x00user1\x01user2\x00user2\x01user3\x00user3\x01user4\x00user4\x01user5\x00user5\x01user6\x00user6\x01user7\x00user7\x01user8\x00user8\x01user9\x00user9\x01utility\x00utility\x01usuario\x00clave\x01utlbstatu\x00utlestat\x01vea\x00vea\x01veh\x00veh\x01vertex_login\x00vertex_login\x01videouser\x00videouser\x01vif_developer\x00vif_dev_pwd\x01viruser\x00viruser\x01vpd_admin\x00akf7d98s2\x01vrr1\x00vrr1\x01vrr1\x00vrr2\x01vrr1\x00unknown\x01webcal01\x00webcal01\x01webdb\x00webdb\x01webread\x00webread\x01websys\x00manager\x01webuser\x00your_pass\x01west\x00west\x01wfadmin\x00wfadmin\x01wh\x00wh\x01wip\x00wip\x01wkadmin\x00wkadmin\x01wkproxy\x00wkproxy\x01wkproxy\x00change_on_install\x01wksys\x00change_on_install\x01wkproxy\x00unknown\x01wksys\x00wksys\x01wkuser\x00wkuser\x01wk_test\x00wk_test\x01wms\x00wms\x01wmsys\x00wmsys\x01wob\x00wob\x01wps\x00wps\x01wsh\x00wsh\x01wsm\x00wsm\x01www\x00www\x01wwwuser\x00wwwuser\x01xademo\x00xademo\x01xdb\x00change_on_install\x01xdp\x00xdp\x01xla\x00xla\x01xnc\x00xnc\x01xni\x00xni\x01xnm\x00xnm\x01xnp\x00xnp\x01xns\x00xns\x01xprt\x00xprt\x01xtr\x00xtr\x01mddemo_mgr\x00mgr\x01system\x00d_systpw\x01system\x00oracle8i\x01system\x000racle8\x01system\x000racle9\x01system\x000racle8i\x01system\x000racl38\x01system\x000racl39\x01system\x000racl38i\x01sys\x000racle8\x01sys\x000racle9\x01sys\x000racle8i\x01sys\x000racl38\x01sys\x000racl39\x01sys\x000racl38i\x01ordplugins\x00ordplugins\x01ordsys\x00ordsys\x01ose$http$admin\x00invalid password\x01ose$http$admin\x00invalid\x01osm\x00osm\x01osp22\x00osp22\x01ota\x00ota\x01outln\x00outln\x01owa\x00owa\x01owa_public\x00owa_public\x01owf_mgr\x00owf_mgr\x01owner\x00owner\x01ozf\x00ozf\x01ozp\x00ozp\x01ozs\x00ozs\x01pa\x00pa\x01panama\x00panama\x01patrol\x00patrol\x01paul\x00paul\x01perfstat\x00perfstat\x01perstat\x00perstat\x01pjm\x00pjm\x01planning\x00planning\x01plex\x00plex\x01plsql\x00supersecret\x01pm\x00change_on_install\x01pm\x00unknown\x01pm\x00pm\x01pmi\x00pmi\x01pn\x00pn\x01po\x00po\x01po7\x00po7\x01po8\x00po8\x01poa\x00poa\x01pom\x00pom\x01portal_demo\x00portal_demo\x01portal_sso_ps\x00portal_sso_ps\x01portal30\x00portal30\x01portal30\x00portal31\x01portal30_admin\x00portal30_admin\x01portal30_demo\x00portal30_demo\x01portal30_ps\x00portal30_ps\x01portal30_public\x00portal30_public\x01portal30_sso\x00portal30_sso\x01portal30_sso_admin\x00portal30_sso_admin\x01portal30_sso_ps\x00portal30_sso_ps\x01portal30_sso_public\x00portal30_sso_public\x01pos\x00pos\x01powercartuser\x00powercartuser\x01primary\x00primary\x01psa\x00psa\x01psb\x00psb\x01psp\x00psp\x01pubsub\x00pubsub\x01pubsub1\x00pubsub1\x01pv\x00pv\x01qa\x00qa\x01qdba\x00qdba\x01qp\x00qp\x01qs\x00change_on_install\x01qs\x00qs\x01qs\x00unknown\x01qs_adm\x00change_on_install\x01qs_adm\x00qs_adm\x01qs_adm\x00unknown\x01qs_cb\x00change_on_install\x01qs_cb\x00qs_cb\x01qs_cb\x00unknown\x01qs_cbadm\x00change_on_install\x01qs_cbadm\x00qs_cbadm\x01qs_cbadm\x00unknown\x01qs_cs\x00change_on_install\x01qs_cs\x00qs_cs\x01qs_cs\x00unknown\x01qs_es\x00change_on_install\x01qs_es\x00qs_es\x01qs_es\x00unknown\x01qs_os\x00change_on_install\x01qs_os\x00qs_os\x01qs_os\x00unknown\x01qs_ws\x00change_on_install\x01qs_ws\x00qs_ws\x01qs_ws\x00unknown\x01re\x00re\x01rep_manager\x00demo\x01rep_owner\x00demo\x01rep_owner\x00rep_owner\x01rep_user\x00demo\x01repadmin\x00repadmin\x01reports_user\x00oem_temp\x01reports\x00reports\x01rg\x00rg\x01rhx\x00rhx\x01rla\x00rla\x01rlm\x00rlm\x01rmail\x00rmail\x01rman\x00rman\x01rrs\x00rrs\x01sample\x00sample\x01sap\x00sapr3\x01sap\x0006071992\x01sapr3\x00sap\x01scott\x00tiger\x01scott\x00tigger\x01sdos_icsap\x00sdos_icsap\x01secdemo\x00secdemo\x01serviceconsumer1\x00serviceconsumer1\x01sh\x00change_on_install\x01sh\x00sh\x01sh\x00unknown\x01siteminder\x00siteminder\x01si_informtn_schema\x00si_informtn_schema\x01slide\x00slidepw\x01spierson\x00spierson\x01ssp\x00ssp\x01starter\x00starter\x01strat_user\x00strat_passwd\x01swpro\x00swpro\x01swuser\x00swuser\x01sympa\x00sympa\x01sys\x00change_on_install\x01sys\x00d_syspw\x01sys\x00manager\x01sys\x00oracle\x01sys\x00sys\x01sys\x00syspass\x01sys\x00manag3r\x01sys\x00oracl3\x01sys\x000racle\x01sys\x000racl3\x01sys\x00oracle8\x01sys\x00oracle9\x01sys\x00oracle8i\x01sys\x00oracle9i\x01sys\x000racle9i\x01sys\x000racl39i\x01sysadm\x00sysadm\x01sysadmin\x00sysadmin\x01sysman\x00oem_temp,/,,AUTHTYPE\x02BASIC,
+Overland Storage 1,admin\x00admin,/admin/intro?fnc=all,,AUTHTYPE\x02BASIC,
+Overland Storage TLC 1,,,,,\x001\x02\x002\x02\x003
+# P
+PhoenixContact Switch 1,,/en/ipconfig.htm,,,
+Panasonic Network Camera 1,,,,,ADMIN\x0012345
+Panasonic WebDVR 1,,,,,ADMIN\x0012345
+Pelco CCTV 1,,/setup.htm,,,
+Pelco DX4X00 DVR 1,,,,,admin\x00admin
+Pelco Endura 1,admin\x00admin,/auth/login,CODE\x02302\x01CONTENT\x02LOCATION\x02/web/entry/en/websys/webArch/mainFrame.cgi\x01!\x00m\x00\x00User name or password error\x2cplease try again,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02lang=en&lang_index=0&username=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST
+Pelco WebDVR 1,,/setup.htm,,,
+Pelco Sarix 1,admin\x00admin,/auth/validate,CODE\x02302\x01LOCATION\x02/liveview,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02username=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Pelco WebDVR 2,,,,,Admin\x00Admin\x01Admin\x00000000
+Perle Media Converter 1,admin\x00superuser,/manage.cgi,,,admin\x00superuser
+Planet ICS 1,admin\x00admin,/cgi/login.cgi?Username=admin&Password=admin&Challenge=&Response=&x=0&y=0,CODE\x02200,Method\x02GET,
+Polycom IP Phone 1,admin\x001234,/home.htm,,AUTHTYPE\x02BASIC,
+Polycom VTC 1,administrator\x00polycom\x01POLYCOM\x00POLYCOM,/login.php,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00User name or password error\x2cplease try again,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02lang=en&lang_index=0&username=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Polycom VTC 2,\x00\x01Polycom\x00456\x01Polycom\x00SpIp,/a_syssettings.htm,,AUTHTYPE\x02BASIC,
+Polycom VTC 3,,/a_setupindex.htm\x01/a_adminindex.htm,,,
+Polycom VTC 4,administrator\x00polycom\x01POLYCOM\x00POLYCOM,/login.php,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00User name or password error\x2cplease try again,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02lang=en&lang_index=0&username=_^_USER_^_&password=_^_PASS_^_\x01Method\x02POST,
+Polycom VTC 5,,/a_time.htm,,,
+Powerware Connect UPS 1,admin\x00admin,/PswaConfig.html,,AUTHTYPE\x02BASIC,
+Promise WebPAM PROe 1,admin\x00admin\x01administrator\x00password,/index.php,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00invalid username or password,Keep-Alive\x021\x01Referer\x02/index.php\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02login=_^_USER_^_&password=_^_PASS_^_&submit=+Login+\x01Method\x02POST\x01SSL\x021,
+# Q
+Q-Link Tape Library 1,,/main.cgi,CODE\x02200,,
+QLogic SANSurfer 1,,,,,root\x00config
+QNAP NAS 1,,,,,admin\x00admin
+Quantum Prism NAS 1,admin\x00admin\x01guest\x00guest,/PMC/network.html,,AUTHTYPE\x02BASIC,
+Quantum PX720 Tape Library 1,admin\x00001122\x01admin\x00admin\x01guest\x00guest,/index.php,,AUTHTYPE\x02BASIC,
+Quantum PX502 NAS 1,admin\x00001122\x01admin\x00admin\x01guest\x00guest,/id.html,,AUTHTYPE\x02BASIC,
+Quantum Scalar Tape Library 1,,,,,admin\x00001122\x01admin\x00admin\x01guest\x00guest
+Quantum SNAP NAS 1,,,,,admin (record me)\x00admin\x01guest\x00guest\x01admin\x00001122
+Quantum Superloader 1,admin\x00admin\x01guest\x00guest\x01admin\x00001122,/config_ops.html,,AUTHTYPE\x02BASIC,
+# R
+RAD Data 1,su\x001234,/configurad/WebMan,CODE\x01200\x02CONTENT\x01\x00m\x00\x00ConectionID = \x220\x22,Referer\x02/configurad/frame\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02pl=0&uname=_^_USER_^_&upass=_^_PASS_^_\x01Method\x02POST,
+Raritan Dominion PDU 1,admin\x00raritan,/auth.asp,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Authentication failed,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02nickname=&is_dotnet=0&login=_^_USER_^_&password=_^_PASS_^_&action_login=Login\x01Method\x02POST,
+Raritan Remote Console 1,,,,,admin\x00raritan
+Raytheon Network Extender 1,,,,,
+Red Hat Network Proxy Server 1,,,,,
+Ricoh Copier 1,admin\x00password\x01sysadmin\x00password,/en/set_index.cgi\x01/web/entry/en/websys/webArch/mainFrame.cgi,,AUTHTYPE\x02BASIC,
+Ricoh Copier 2,sysadmin\x00password\x01admin\x00password,_^_PATH_^_,,AUTHTYPE\x02BASIC,
+Ricoh Aficio 1,admin\x00\x01admin\x00password,/web/guest/en/websys/webArch/login.cgi,CODE\x02302\x01LOCATION\x02/web/entry/en/websys/webArch/mainFrame.cgi,Referer\x02/web/guest/en/websys/webArch/authForm.cgi\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02userid_work=&userid=_^_USER_^_&password_work=&password=_^_PASS_^_&open\x01Method\x02POST\x01SubType\x02Base64,admin\x00\x01admin\x00password
+# couldn't find valid combo
+Ricoh RW-240 Plotter 1,,,,,
+Ricoh Scanner 1,scanner\x00password,/cgi-bin/conf/comm.cgi,,Args\x02_la=1\x01AUTHTYPE\x02BASIC,
+Riverbed WAN Optimizer 1,,,,,administrator\x00password\x01monitor\x00password\x01admin\x00password\x01admin\x00Riverbed
+Rockwell Serial Adapter 1,,,,,
+Roland DG Print Server 1,,,,,
+# S
+Sage Worksheet 1,,,,,
+Samsung SyncThru Web Service 1,,/Settings/Protocols/general_protocols.htm,,,
+Schneider Automation Web Server 1,USER\x00USER\x01USER\x00USERUSER\x01pcfactory\x00pcfactory\x01loader\x00fwdownload\x01ntpupdate\x00ntpupdate\x01sysdiag\x00factorycast@schneider\x01test\x00testingpw\x01webserver\x00webpages\x01fdrusers\x00sresurdf\x01nic2212\x00qwertyqwerty\x01nimrohs2212\x00poiuypoiuy\x01nip2212\x00fcsdfcsd\x01ftpuser\x00ftpuser\x01noe77111_v500\x00RcSyyebczS\x01AUTCSE\x00RybQRceeSd\x01AUT_CSE\x00cQdd9debez\x01target\x00RcQbRbzRyc,/secure/system/index.htm,,AUTHTYPE\x02BASIC,
+Schneider Automation Web Server 2,USER\x00USER\x01USER\x00USERUSER\x01pcfactory\x00pcfactory\x01loader\x00fwdownload\x01ntpupdate\x00ntpupdate\x01sysdiag\x00factorycast@schneider\x01test\x00testingpw\x01webserver\x00webpages\x01fdrusers\x00sresurdf\x01nic2212\x00qwertyqwerty\x01nimrohs2212\x00poiuypoiuy\x01nip2212\x00fcsdfcsd\x01ftpuser\x00ftpuser\x01noe77111_v500\x00RcSyyebczS\x01AUTCSE\x00RybQRceeSd\x01AUT_CSE\x00cQdd9debez\x01target\x00RcQbRbzRyc,/secure/embedded/GDa_IF?API=GDa_update,,AUTHTYPE\x02BASIC,
+Schneider Automation Web Server 3,USER\x00USER\x01USER\x00USERUSER\x01pcfactory\x00pcfactory\x01loader\x00fwdownload\x01ntpupdate\x00ntpupdate\x01sysdiag\x00factorycast@schneider\x01test\x00testingpw\x01webserver\x00webpages\x01fdrusers\x00sresurdf\x01nic2212\x00qwertyqwerty\x01nimrohs2212\x00poiuypoiuy\x01nip2212\x00fcsdfcsd\x01ftpuser\x00ftpuser\x01noe77111_v500\x00RcSyyebczS\x01AUTCSE\x00RybQRceeSd\x01AUT_CSE\x00cQdd9debez\x01target\x00RcQbRbzRyc,/Forms/login1,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Invalid User Name,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02login_username=_^_USER_^_&login_password=_^_PASS_^_&prefLanguage=00000000&submit=Log+On\x01Method\x02POST,
+Schneider Electric StruxureWare 1,,,,,admin\x00admin\x01USER\x00USER\x01USER\x00USERUSER\x01pcfactory\x00pcfactory\x01loader\x00fwdownload\x01ntpupdate\x00ntpupdate\x01sysdiag\x00factorycast@schneider\x01test\x00testingpw\x01webserver\x00webpages\x01fdrusers\x00sresurdf\x01nic2212\x00qwertyqwerty\x01nimrohs2212\x00poiuypoiuy\x01nip2212\x00fcsdfcsd\x01ftpuser\x00ftpuser\x01noe77111_v500\x00RcSyyebczS\x01AUTCSE\x00RybQRceeSd\x01AUT_CSE\x00cQdd9debez\x01target\x00RcQbRbzRyc
+Scrutinizer NetFlow Analyzer 1,admin\x00admin,/index.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00username or password is incorrect,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user=_^_USER_^_&pass=_^_PASS_^_&LOGIN=LOGIN&el=\x01Method\x02POST,
+Scyld Beowulf Storage Cluster 1,,,,,
+Seagate NAS 1,admin\x00admin,,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Login Failed,Referer\x02/configurad/frame\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02p_user=_^_USER_^_&p_pass=_^_PASS_^_&lang=en&xx=1&loginnow=Login\x01Method\x02POST,
+SEH Intelligent Spooling Device 1,admin\x00admin,/admin/start.html,,AUTHTYPE\x02BASIC,
+Sensatronics Environment Monitor 1,,,,,
+Sharp Printer 1,admin\x00Sharp\x01Administrator\x00admin\x01admin\x00admin,/password.html,,AUTHTYPE\x02BASIC,
+Sharp Printer 2,\x00admin,/login.html?/main.html,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00password\-verification\sfailed\.,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02ggt_select%2810009%29=3&ggt_textbox%2810003%29=_^_PASS_^_&action=loginbtn&ggt_hidden%2810008%29=4\x01Method\x02POST,
+Sharp Printer 3,admin\x00Sharp,/eng/setup/pserver.htm,,PORT\x02129\x01AUTHTYPE\x02BASIC,
+Sharp Printer 4,admin\x00Sharp,/email_setup.html,,AUTHTYPE\x02BASIC,
+Shoreline Audio Conferencing 1,admin\x00changeme\x01administrator\x001234,/cgi-bin/vcs_signin,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00><TD CLASS=\x22alert\x22>Either your User ID or password was invalid. Please try again.<\/TD>,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02xml=withXsl&xsl=%2Fvcs%2Fvcs_home.xsl&current_vanities=&settings=global%3buser%3bphone&x=2053869246&username=_^_USER_^_&password=_^_PASS_^_&signin=+Sign+In+\x01Method\x02POST,
+SMA Sunny Web Box 1,,,,,installer\x00sma
+Snap Appliance 1,admin\x00admin,/admin/intro?fnc=all,,AUTHTYPE\x02BASIC,
+SNAP Storage 1,,/config/debug\x01/config/update,,,
+Solarwinds Orion Network Monitor 1,,,,,
+SonicWall Firewall 1,,,,,admin\x00password
+Sony Webcam 1,admin\x00admin,/home/l4/admin.html,,AUTHTYPE\x02BASIC,
+Sony Exmor Webcam 1,admin\x00admin,/,,AUTHTYPE\x02BASIC,
+Spectra Tape Library 1,su\x00\x01administrator\x00\x01operator\x00\x01,/gf/startpage.htm,CODE\x02302\x01Location\x02/gf/main.htm,Method\x02POST\x01Args\x02libraryuser=_^_USER_^_&librarypass=_^_PASS_^_&x=0&y=0\x01Content-Type\x02application/x-www-form-urlencoded,
+Sun AnswerBook2 1,,/ab2/@Ab2Admin,CODE\x02200\x01CONTENT\x02\x00m\x00\x00administrative access control is turned on,,
+Sun Management Center Web Console 1,,,,,
+Sun ILOM 1,root\x00letmein,/iPages/loginProcessor.asp,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00iPages\/i_login.asp\?msg\=2,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02slink=&username=_^_USER_^_&password=_^_PASS_^_&Button2=Log+In\x01Method\x02POST,
+Sun T3 Storage 1,,root\x00sun1,,AUTHTYPE\x02BASIC,
+Sun StorageTek Tape Library 1,,,,,
+SuperMicro ILOM 1,ADMIN\x00ADMIN,/cgi/login.cgi,CODE\x02200\x01,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02name=_^_USER_^_&pwd=_^_PASS_^_\x01Method\x02POST,
+Symbol WAP 1,Symbol\x00Symbol\x01symbol\x00Symbol\x01admin\x00motorola,/_NetworkSetup.htm,,AUTHTYPE\x02BASIC,
+Synaccess Remote Power Management 1,admin\x00admin,/loginEntry.shtml,,AUTHTYPE\x02BASIC,
+# T
+Tandberg Data SAN 1,admin\x00TANDBERG,/Conf_7E.htm,,AUTHTYPE\x02BASIC,
+Tandberg VTC 1,admin\x00TANDBERG,/,,AUTHTYPE\x02BASIC,
+Tandberg Codian VTC 1,,,,,admin\x00
+# Tandberg uses MD5 authentication, not supported right now
+Tektronix Printer 1,,/config_password.html,,,
+Tetronix Printer 1,,/f_tcpip.shtml,,,
+TiVO DVR,,,,,
+Toshiba TopAccess MFD 1,Admin\x00password\x01root\x00,/ADMIN/Login,CODE\x02301\x01LOCATION\x02\x00m\x00\x00Default\?MAIN=ADMIN\&SUB=SETUP,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02USERNAME=_^_USER_^_&PASS=_^_PASS_^_\x01Method\x02POST,
+TP-Link WAP 1,admin\x00admin,/,,AUTHTYPE\x02BASIC,
+TRENDNET Print Server 1,,/network.htm,,,
+Trend IQ3XCite Building Automation System 1,,,,,
+Trimble NetRS GPS 1,Sysadmin\x00netrs\x01sysadmin\x00netrs\x01SysAdmin\x00netrs,/perl-scripts/NetRs.cgi,,AUTHTYPE\x02BASIC,
+Tripp Lite 1,admin\x00admin,/PROCESS-LOGON,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00UserName or Password is NOT Correct,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02UserName=_^_USER_^_&PassWord=_^_PASS_^_\x01Method\x02POST,
+Tripp-Lite 1,admin\x00admin,/PROCESS-LOGON,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00UserName or Password is NOT Correct,,
+TriVision Wireless Video Streamer 1,admin\x00admin,/en/mjpgmain.asp,,AUTHTYPE\x02BASIC,
+Troy Wireless ExtendNet Print Server 1,admin\x00extendnet\x01admin\x00admin,/LOGIN.HTM,,AUTHTYPE\x02BASIC,
+TrueTime NTP Server 1,operator\x00mercury,/web/html/control.htm?WINDWEB_URL=%2Fweb%2Fhtml%2Fcontrol.htm&ssUserName=operator&ssPassword=mercury&indxtimc.htm=Press+to+Continue&ssSyntaxError=Set+Transactions+Failed.++You+are+not+logged+in.%0D%0ASet+Transactions+Failed.++You+are+not+logged+in.%0D%0A%0D%0A,CONTENT\x02\x00m\x00\x00Login passed. Use the side'},,
+Tumbleweed 1,,,,,
+Tyco Video Server 1,admin\x009999,/net.htm,,AUTHTYPE\x02BASIC,
+# U
+UBNT AirOS WAP 1,,,,,ubnt\x00ubnt
+Unknown Monitor 1,,,,,
+Unknown Web Server 1,,,,,
+Unknown Web Server (Invalid Hostname) 1,,,,,
+Urchin on Apache 1,admin\x00urchin,/session.cgi,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Authentication Failed,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02user=_^_USER_^_&pass=_^_PASS_^_&app=admin&action=login\x01Method\x02POST,
+# V
+VBrick IWS VTC 1,,,,,operator\x00operator
+VBrick Web TV 1,,,,,operator\x00operator
+Vivotek Webcam 1,,/setup/security.html,,,
+VLinx Serial Adapter 1,,,,,
+VMWare ESX 1,,,,,
+VMWare vSphere 1,,,,,
+VMWare VirtualCenter 1,,,,,
+VMWare vCenter Converter 1,,,,,
+# W
+Web2Py Web Application 1,,,,,
+WebCTRL HVAC 1,,,,,administrator\x00password\x01admin\x00password
+Websense 1,,,,,
+Western Digital ShareSpace NAS 1,admin\x00admin\x01admin\x00password\x01admin\x00123456,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00User name and password do not match,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02p_user=_^_USER_^_&p_pass=_^_PASS_^_&login_mode=configuration&lang=en&loginnow=Login\x01Method\x02POST,
+Western Digital Shared Storage 1,admin\x00123456,/auth/gensetup.pl,,AUTHTYPE\x02BASIC,
+Win VOIP System 1,,,,,
+# X
+Xerox DocuCentre 1,admin\x0022222\x01NSA\x00nsa\x0111111\x00x-admin,/prop.htm,,AUTHTYPE\x02BASIC,
+Xerox CentreWare MFD 1,admin\x0022222\x01NSA\x00nsa\x0111111\x00x-admin\x01admin\x00admin,/,,AUTHTYPE\x02BASIC,
+Xerox Fiery MFD 1,,,,,
+Xerox FreeFlow Accxes 1,\x00administ,/AuthAction.do,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00Invalid password,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02name=sessionSetup&password=_^_PASS_^_\x01Method\x02POST,
+Xerox MFD 1,,,,,
+Xerox Phaser MFD 1,,/setting/setipprot.htm,,,
+Xerox WorkCentre MFD 1,\x00\x01admin\x0022222\x01admin\x00\x01admin\x00admin\x01admin\x00x-admin\x01x000000,/prpttcp.htm\x01/properties/protocols/tcpip.dhtml\x01/devadmin/s_tcpip.dhtml\x01/coTcpip.dhtml\x01/tcpip.shtml\x01/tcpip\x01/tcpip.html\x01/s_tcpip.htm,,AUTHTYPE\x02BASIC,
+Xerox WorkCentre MFD 2,\x00\x01admin\x0022222\x01admin\x00\x01admin\x00admin\x01admin\x00x-admin\x01\x000000,/userpost/xerox.set,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00invalid=t,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02_fun_function=HTTP_Authenticate_fn&NextPage=%2Fproperties%2Fauthentication%2FluidLogin.php&webUsername=_^_USER_^_&webPassword=_^_PASS_^_&frmaltDomain=default\x01Method\x02POST,
+Xerox WebPMT 1,\x000000\x01\x0000000000,/session,CODE\x02200\x01CONTENT\x02!\x00m\x00i\x00password\-verification\sfailed\.,Referer\x02/session\x01Content-Type\x02application/x-www-form-urlencoded\x01Args\x02session_password=_^_PASS_^_&post_password=++Submit++\x01Method\x02POST,
+Xerox ColorQube Copier 1,\x00\x01admin\x002222\x01admin\x00\x01admin\x00admin\x01admin\x00x-admin\x01\x000000,/userpost/xerox.set,CODE\x02200\x01CONTENT\x02!\x00m\x00\x00invalid=t,Content-Type\x02application/x-www-form-urlencoded\x01Args\x02_fun_function=HTTP_Authenticate_fn&NextPage=%2Fproperties%2Fauthentication%2FluidLogin.php&webUsername=_^_USER_^_&webPassword=_^_PASS_^_&frmaltDomain=default\x01Method\x02POST,
+Xerox Printer 1,\x00\x01admin\x002222\x01admin\x00\x01admin\x00admin\x01admin\x00x-admin\x01\x000000,/admin/frame.html?mode=status;Lang=0,,AUTHTYPE\x02BASIC,
+XYTRONIX Relay 1,,,,,\x00web_relay
+# Y
+# Z
+Zope Zenoss Network Monitor,,,,,

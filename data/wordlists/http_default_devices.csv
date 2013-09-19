@@ -1,0 +1,342 @@
+# mapping fingerprint to device info
+# Name, Manufacturer, Type, SubType, Model, Dynamic Model?
+3COM Switch,3COM,Network,Switch,NA,0
+3COM WAP,3COM,Network,WAP,NA,0
+3eTI AirGuard WAP,3eTI,Network,WAP,NA,0
+ACURITE Weather Station,Chaney Instrument Co,scada,remote measurement,NA,0
+ADIC Scalar NAS,ADIC,storage,NAS,NA,0
+Adobe RoboHelp,Adobe,Generic,Web Application,NA,0
+Allied Telesis Switch,Allied Telesis,Network,Switch,NA,0
+Amanda Smart Network Telephony,Amanda,VOIP,server,NA,0
+American Dynamics Video,American Dynamics,Output,Video,NA,0
+American Megatrends MegaRac,American Megatrends,Remote,ILOM,NA,0
+Andover Controls Continuum Server,Andover,Remote,Control,NA,0
+AND Speaker,Advanced Network Devices,Output,Speaker,NA,0
+Apache No Index,Apache,Generic,Webpage,NA,0
+Apache Tomcat/Coyote,Apache,Generic,Generic,NA,0
+Apache Web Server,Apache,Generic,Webpage,,1
+APC InfraStruXure,APC,power,remote,NA,0
+APC NetBotz Environmental Monitoring,APC,Remote,Environmental Monitor,NA,0
+APC UPS,APC,power,remote,NA,0
+Apple Embedded Web Server,Apple,Generic,Webpage,NA,0
+AtHoc IWSAlerts Management System,AtHoc,Generic,Alert Management System,NA,0
+Audiocodes VOIP (SIP gateway),Audiocodes,VOIP,gateway,NA,0
+Avaya Communications Manager,Avaya,voip,call manager,NA,0
+Avocent DSView,Cyclades,Remote,Console,,1
+Avocent DAC Explorer,Cyclades,Remote,Console,NA,0
+AVTECH TemPageR,AVTECH,Remote,Environmental Monitor,NA,0
+AXIS StorPoint CD NAS,Axis,Storage,NAS,NA,0
+AXIS Webcam,Axis,Output,Web Camera,NA,0
+AXIS Communications Print Server,Axis Communications,Output,Printer,NA,0
+BlueCoat Packet Shaper,BlueCoat,network,packet shaper,NA,0
+BlueCat Proteus IP Manager,BlueCat,Application,IP Manager,NA,0
+Bosch WebDVR,Bosch,Output,DVR,NA,0
+Bosch Dibos CCTV,Bosch,video,CCTV,NA,0
+Bosch Divar CCTV,Bosch,video,CCTV,NA,0
+Bosch Video Control System,Bosch,video,control system,NA,0
+Brocade FastIron Switch,Brocade,Network,Switch,NA,0
+Brocade Mobility WAP,Brocade,Network,WAP,NA,0
+Brother Printer,Brother,Output,Printer,NA,0
+Buffalo LinkStation,Buffalo,Storage,NAS,NA,0
+Buffalo PCAST media server,Buffalo,Output,DVR,NA,0
+Buffalo TeraStation,Buffalo,Storage,NAS,NA,0
+Buffalo TeraStation Pro,Buffalo,Storage,NAS,NA,0
+Buffalo WAP,Buffalo,Network,WAP,NA,0
+CA Unicenter Service Desk on Apache-Coyote,CA,Generic,Web Application,NA,0
+CA Unified Communications Monitor,CA,Generic,Web Application,NA,0
+CA EHealth,CA,Application,Network Health,NA,0
+Cabletron Switch,Cabletron,Network,Switch,NA,0
+Campbell SCI Monitor,Campbell SCI,scada,monitor,NA,0
+Canon Copier,Canon,Output,Copier,NA,0
+Canon Fiery Printer,Canon,Output,Printer,NA,0
+Canon MFD,Canon,Output,Copier,NA,0
+CheckPoint Firewall,Checkpoint,Network,Firewall,NA,0
+Cisco ASDM,Cisco,Application,Device Manager,NA,0
+Cisco ATA,Cisco,VOIP,phone,NA,0
+Cisco Camera,Cisco,Video,Camera,NA,0
+Cisco Call Manager,Cisco,voip,Call Manager,NA,0
+Cisco CIUS,Cisco,Mobile,Tablet,NA,0
+Cisco Digital Media Player,Cisco,Video,DVR,NA,0
+Cisco Emergency Responder,Cisco,Network,Emergency Responder,NA,0
+Cisco IP Phone,Cisco,voip,phone,NA,0
+Cisco IP VTC,Cisco,Network,VTC,NA,0
+Cisco IP Teleconferencing,Cisco,VOIP,bridge,NA,0
+Cisco IPVC,Cisco,Video,VTC,NA,0
+Cisco MDS,Cisco,Network,SAN,NA,0
+Cisco Network Bridge,Cisco,Network,L2,NA,0
+Cisco Network Device,Cisco,Network,L3,NA,0
+Cisco Network Device - Nexus,Cisco,Network,SAN,NA,0
+Cisco Network Device - Cisco Device Manager,Cisco,Network,L3,NA,0
+Cisco Network Device - SB,Cisco,Network,L3,NA,0
+Cisco Media Termination Point,Cisco,VOIP,relay,NA,0
+Cisco TelePresence,Cisco,video,vtc,NA,0
+Cisco UCS Manager,Cisco,application,network manager,NA,0
+Cisco Unity Express,Cisco,VOIP,Call Manager,NA,0
+Cisco Unity Server,Cisco,VOIP,Call Manager,NA,0
+Cisco VPN Concentrator,Cisco,Network,VPN,NA,0
+Cisco WAP,Cisco,Network,WAP,NA,0
+Cisco Wireless Control System,Cisco,Network,WAP,NA,0
+CiscoWorks NCM,Cisco,Application,Network Manager,NA,0
+Cisco Communications Manager,Cisco,VOIP,Call Manager,NA,0
+Citrix Server,Citrix,out of band,console,NA,0
+Citrix Xen,Citrix,out of band,console,NA,0
+ControlByWeb X-320 Remote Sensing,ControlByWeb,scada,remote measurement,NA,0
+ControlLogics DVR,ControlLogics,video,dvr,NA,0
+Creston E-Control,Creston,scada,unknown,NA,0
+Cyclades Avocent Switch,Cyclades,Network,Switch,NA,0
+Cyclades Out-of-band Management,Cyclades,out of band,Console,NA,0
+Dedicated Micros Camera,Dedicated Micros,video,camera,NA,0
+Default Apache web page,Apache,Generic,Webpage,,1
+Default OSX Apache web page,Apache,Generic,Webpage,NA,0
+Dell Color Laser Printer,Dell,Output,Printer,NA,0
+Dell Chassis Management Controller,Dell,out of band,ILOM,NA,0
+Dell EqualLogic SAN,Dell,storage,SAN,NA,0
+Dell ILOM,Dell,out of band,ILOM,NA,0
+Dell KVM,Dell,out of band,kvm,NA,0
+Dell Laser Printer,Dell,Output,Printer,NA,0
+Dell NAS,Dell,storage,nas,NA,0
+Dell Network Switch,Dell,Switch,Network,NA,0
+Dell PowerVault Tape Library,Dell,Storage,SAN,NA,0
+Dell Remote Access Controller,Dell,out of band,ILOM,NA,0
+Digi One Print Server,Digi,Output,Printer,NA,0
+Digi One Connect SP,Digi,Network,WAP,NA,0
+Digi Switch,Digi,Network,Switch,NA,0
+Digiop WebAgent Camera,Digiop,video,camera,NA,0
+DigiTech Papervision,DigiTech,Storage,Document Management,NA,0
+DYMO Label Writer,DYMO,Output,Printer,NA,0
+D-Link WAP,D-Link,Network,WAP,NA,1
+D-Link Print Server,D-Link,Output,Server,NA,0
+Eaton UPS,Eaton,Power,Remote,NA,0
+EMC Navisphere Express,Navisphere,storage,NAS,NA,0
+EMC NAVISPHERE,EMC,storage,SAN,NA,0
+EMC Unisphere,EMC,storage,NAS,NA,0
+Emerson AMX Controller,Emerson,scada,controller,NA,0
+Emerson Network Power,Emerson,Power,Remote,NA,0
+EndRun Technologies NTP Appliance,EndRun Technologies,server,NTP,NA,0
+Epson Printer,Epson,Output,Printer,NA,0
+Epson Workforce MFD,Epson,Output,MFD,NA,0
+EpsonNet Printer,Epson,Output,Printer,NA,0
+Extendnet Print Server,Extended Solutions,Output,Printer,NA,0
+Extron TLP 710TV,Extron,video,webcam,NA,0
+FabricOS Switch Explorer,FabricOS,Network,SAN,NA,0
+Foundry Network Device,Foundry,Network,Switch,NA,0
+GMaCi Power,Gamatronics,scada,power,NA,0
+GigaMon G-Vue Tap,GigaMon,network,tap,NA,0
+Google Earth Appliance,Google,Generic,Web Application,NA,0
+Google Search Appliance,Google,Generic,Web Application,NA,0
+Google Search Appliance Admin Interface,Google,Generic,Web Administration,NA,0
+Hewlett-Packard Switch,HP,Network,SAN,NA,0
+HikVision DVR,HikVision,video,DVR,NA,0
+Hitachi Storage Manager,Hitachi,Storage,SAN,NA,0
+HP Blade Manager,HP,out of band,console,NA,0
+HP DesignJet Printer,HP,Output,Printer,NA,0
+HP ILOM,HP,out of band,ILOM,NA,0
+HP Jetadmin,HP,Output,Print Server,NA,0
+HP Officejet,HP,Output,Printer,NA,0 
+HP Photosmart Printer,HP,Output,Printer,NA,0
+HP Power Manager,HP,power,remote,NA,0
+HP Printer,HP,Output,Printer,NA,0
+HP Scanner,HP,Output,Scanner,NA,0
+HP StorageWorks Ethernet Controller,HP,Storage,NAS,NA,0
+Imagistics Copier,Imagistics,Output,Copier,NA,0
+Infortrend RAID,Infortrend,Storage,RAID,NA,0
+Intuity Audix PBX,Intuity,VOIP,PBX,NA,0
+IOMega NAS,IOMega,Storage,NAS,NA,0
+IOMega Print Server,IOMega,Output,Printer,NA,0
+IronPort Mail Gateway,IronPort,Network,Mail Gateway,NA,0
+IsItUp Network Monitor,Yahoo,Web Application,Monitor,NA,0
+IVC Webcam,Industrial Video & Control,video,webcam,NA,0
+JPS Network Extender,JPS Communications,network,extender,NA,0
+KIP Print Server,KIP,Output,Print Server,NA,0
+Konica MFD,Konica,Output,MFD,NA,0
+Konica Minolta Bizhub,Konica Minolta,Output,Copier,NA,0
+Konica Minolta Copier,Konica Minolta,Output,Copier,NA,0
+Konica Minolta MFD,Konica Minolta,Output,MFD,NA,0
+KTINet Switch,KTINet,Network,Switch,NA,0
+Kyocera Copier,Kyocera,Output,Copier,NA,0
+Kyocera MFD,Kyocera,Output,MFD,NA,0
+Kyocera Network Scanner,Kyocera,Output,Scanner,,1
+LaCie NAS,LaCie,Storage,Network,SAN,0
+Lantronix Switch,Lantronix,out of band,console,NA,0
+Lantronix Adapter,Lantronix,Network,Ethernet Adapter,NA,0
+Lantronix UDS,Lantronix,out of band,console,NA,0
+Lenel Access Control,Lenel,scada,door access,NA,0
+Lexmark 9500 Series Copier,Lexmark,Output,Copier,NA,0
+Lexmark Copier,Lexmark,Output,Copier,NA,0
+Lexmark Laser Printer,Lexmark,Output,Printer,NA,0
+Lexmark Printer,Lexmark,Output,Printer,NA,0
+LTO AutoLoader,LTO,Storage,Tape Library,NA,0
+MapServer 4 Windows,MapServer,Generic,Web Application,NA,0
+MAXTOR NAS,Maxtor,storage,NAS,NA,0
+McAfee ePolicy Orchestrator,McAfee,out of band,security,NA,0
+McData SanPilot,McData Corporation,Storage,SAN,NA,0
+MGE UPS,MGE,power,remote,NA,0
+Micronet Platinum NAS,Micronet,Storage,NAS,NA,0
+Microsoft IIS Web Server (Access Restricted),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server (Password Required),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server (No Index),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server (No Index/Directory Listing Denied),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server (Default IIS web page),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server (Default IIS7 web page),Microsoft,Generic,Webpage,NA,0
+Microsoft IIS Web Server,Microsoft,Generic,Webpage,,1
+MikroTik HauteSpot WAP,HauteSpot,Network,WAP,NA,0
+MikroTik Router,MikroTek,Network,Router,NA,0
+MicroTek Ethernet,MicroTek,Network,Ethernet Point to Point,NA,0
+Minolta Copier,Minolta,Output,Copier,NA,0
+Mitel Communications Director,Mitel,voip,pbx,NA,0
+Motorola Canopy WAP,Motorola,Network,WAP,NA,0
+Moxa Switch,Moxa,Network,Switch,NA,0
+Moxa NPort 5100,Moxa,Network,Serial To Ethernet,5100,0
+MRV Remote Console,MRV,remote,console,NA,0
+Multitech MultiAccess Communications Server,Multitech,VOIP,server,NA,0
+Multitech VOIP Gateway,Multitech,VOIP,gateway,NA,0
+Multitech VOIP Phone,Multitech,voip,phone,NA,0
+NEC Projector,NEC,output,projector,NA,0
+NEC Webcam,NEC,video,webcam,NA,0
+NetApp Operations Manager,NetApp,Generic,Web Appliance,NA,0
+NetApp NAS,NetApp,Storage,NAS,NA,0
+NetApp NetCache,NetApp,Network,Cache,NA,0
+NetApp OnCommand,NetApp,Storage,Management,NA,0
+Netgear Print Server,Netgear,Output,Printer,NA,0
+Netgear ReadyNAS,Netgear,Storage,NAS,NA,0
+NetGear Switch,Netgear,Network,Switch,NA,0
+NetQoS,NetQoS,Generic,Network Monitoring,NA,0
+Netscape Enterprise Web Server,Netscape,Generic,Webpage,,1
+Nexsan NAS,Nexsan,Storage,NAS,NA,0
+Nexsan SATABeast NAS,Nexsan,Storage,NAS,SATABeast,0
+Niksun NetDetector,Niksun,Network,IDS,NA,0
+Nokia IPSO appliance,Nokia,Network,Appliance,NA,0
+Nortel Networks ICB,Nortel,VOIP,bridge,NA,0
+Oce Print Server,Océ,Output,Printer,NA,0
+Oce Printer,Oce,Output,Printer,NA,0
+Oki Printer,Oki,Output,Printer,NA,0
+Oracle Application Server,Oracle,Database,Application Server,,1
+Oracle Application Server (with demos),Oracle,Database,Application Server,,1
+Oracle Applications Rapid Install,Oracle,Generic,Installation Remnant,NA,0
+Oracle ILOM,Oracle,Remote,Console,NA,0
+Oracle XDB,Oracle,Generic,XDB,NA,0
+Oracle Web Server With Demos,Oracle,Generic,Web Application,NA,0
+Oracle Web Server,Oracle,Generic,Web Application,NA,0
+Oracle Web Application,Oracle,Generic,Web Application,NA,1
+Oracle Secure Global Desktop,Oracle,Application,Desktop Virtualizer,NA,0
+Overland Storage,Overland,Storage,NAS,NA,0
+Overland Storage TLC,Overland,Storage,SAN,NA,0
+Panasonic Network Camera,Panasonic,video,webcam,NA,0
+Panasonic WebDVR,Panasonic,video,WebDVR,NA,0
+Panasonic Copier,Panasonic,output,copier,NA,0
+Pelco CCTV,Pelco,video,CCTV,NA,0
+Pelco WebDVR,Pelco,video,WebDVR,NA,0
+Pelco DX4X00 DVR,Pelco,video,DVR,NA,0
+Pelco Sarix,Pelco,video,webcam,NA,0
+Pelco Endura,Pelco,video,CCTV,NA,0
+Perle Media Converter,Perle,network,serial to ethernet,NA,0
+Pheonix Contact Switch,Pheonix,Network,Switch,NA,0
+Planet ICS,Planet,network,serial to ethernet,NA,0
+Polycom VTC,Polycom,video,VTC,NA,0
+Polycom IP Phone,Polycom,voip,phone,NA,0
+Point Six Receiver,Point Six,Network,Wireless Receiver,NA,0
+Precidia Ether232Plus,Precidia,Network,Serial over IP,NA,0
+Precidia iPocket232,Precidia,Network,Serial over IP,NA,0
+Promise WebPAM PROe,Promise,Storage,NAS,NA,0
+Powerware Connect UPS,Powerware,power,remote,NA,0
+Q-Link Tape Library,Q-Link,Storage,NAS,NA,0
+QLogic SANSurfer,QLogic,Storage,SAN,NA,0
+QNAP NAS,QNAP,Storage,NAS,NA,0
+Quantum Prism NAS,Quantum,Storage,NAS,NA,0
+Quantum PX502 NAS,Quantum,Storage,NAS,NA,0
+Quantum PX720 Tape Library,Quantum,Storage,Tape,PX720,0
+Quantum Scalar Tape Library,Quantum,Storage,Tap,NA,0
+Quantum SNAP NAS,Quantum,Storage,NAS,NA,0
+Quantum Superloader,Quantum,Storage,Tape,NA,0
+RAD Data NAS,RAD Data,Storage,NAS,NA,0
+Raritan Dominion PDU,Raritan,power,remote,NA,0
+Raritan Remote Console,Raritan,out of band,console,NA,0
+Raytheon Network Extender,Raytheon,Network,Extender,NXU-2A,0
+Red Hat Network Proxy Server,Red Hat,Network,Proxy,NA,0
+Ricoh Aficio,Ricoh,Output,MFD,NA,0
+Ricoh RW-240 Plotter,Ricoh,Output,Plotter,RW-240,0
+Ricoh Copier,Ricoh,Output,Copier,NA,0
+Ricoh Scanner,Ricoh,Output,Scanner,NA,0
+Riverbed WAN Optimizer,Riverbed,Network,Optimizer,NA,0
+Roland DG Print Server,Roland DG,output,print server,NA,0
+Rockwell Serial Adapter,Rockwell Automation,Network,Serial To Ethernet,NA,0
+Sage Worksheet,Sage,Generic,Web Application,NA,0
+Samsung SyncThru Web Service,Samsung,Output,Printer,NA,0
+Schneider Automation Web Server,Schneider,scada,Web Application,NA,0
+Schneider Electric StruxureWare,Schneider,scada,building management,NA,0
+Scrutinizer NetFlow Analyzer,Scrutinizer,Network,Analyzer,NA,0
+Scyld Beowulf Storage Cluster,Scyld,Storage,Cluster,NA,0
+Seagate NAS,Seagate,Storage,NAS,NA,0
+SEH Intelligent Spooling Device,SEH Computertechnik GmbH,Output,Print Server,NA,0
+SEH Intercon Print Server, SEH Computertechnik GmbH,Output,Print Server,NA,0
+Sensatronics Environment Monitor,Sensatronics,out of band,Environmental Monitor,NA,0
+Sharp Printer,Sharp,Output,Printer,NA,0
+Shoreline Audio Conferencing,Shoreline,VOIP,bridge,NA,0
+SimplexGrinnell Alarm,SimplexGrinnell,scada,sensor,NA,0
+SMA Sunny Web Box,SMA,scada,power monitor,NA,0
+SNAP Storage,Overland,Storage,NAS,NA,0
+Solarwinds Orion Network Monitor,Solarwinds,Network,Performance Monitoring,NA,0
+SonicWall Firewall,Sonic,Network,Firewall,NA,0
+Sony Webcam,Sony,video,webcam,NA,0
+Sony Exmor Webcam,Sony,video,webcam,NA,0
+Spectra Tape Library,Spectra,Storage,Tape Library,NA,0
+Sun AnswerBook2,Sun,Generic,Web Application,NA,0
+Sun ILOM,Sun,out of band,ILOM,NA,0
+Sun Management Center Web Console,Sun,Generic,Web Application,NA,0
+Sun StorageTek Tape Library,Sun,Storage,Tape Library,NA,0
+Sun T3 Storage,Sun,Storage,T3,NA,0
+SuperMicro ILOM,SuperMicro,Remote,ILOM,NA,0
+Symbol WAP,Symbol,Network,WAP,NA,0
+Synaccess Remote Power Management,Synaccess,power,remote,NA,0
+Tandberg Data SAN,Tandberg,Storage,SAN,NA,0
+Tandberg VTC,Tandberg,video,vtc,NA,0
+Tandberg Codian VTC,Tandberg,video,vtc,NA,0
+TeamViewer Remote ACcess Tool,TeavViewer,remote,console,NA,0
+Tektronix Printer,Tektronix,Output,Printer,NA,0
+Tetronix Printer,Tetronix,Output,Printer,NA,0
+TiVo DVR,TiVo,video,dvr,NA,0
+TriVision Wireless Video Streamer,TriVision,video,streamer,NA,0
+Toshiba TopAccess MFD,Toshiba,Output,MFD,NA,0
+TP-Link WAP,TP-Link,network,wap,NA,0
+TRENDNET Print Server,TRENDNET,Output,Print Server,NA,0
+Trend IQ3XCite Building Automation System,Trend,scada,building automation,NA,0
+Trimble NetRS GPS,Trimble,out of band,GPS,NA,0
+Tripp-Lite,Tripp-Lite,Unknown,Unknown,NA,0
+Tripp Lite,Tripp Lite,power,remote,NA,0
+Troy Wireless ExtendNet Print Server,Troy Wireless,Output,Printer,NA,0
+TrueTime NTP Server,TrueTime,server,NTP,NA,0
+Tumbleweed,Tumblewed,server,OSCP server,NA,0
+Tyco Video Server,Tyco,video,dvr,NA,0
+UBNT AirOS WAP,UBNT,Network,WAP,NA,0
+Unknown QUCM,Unknown,Unknown,Unknown,NA,0
+Unknown Web Server (Invalid Hostname),Unknown,Unknown,Unknown,NA,0
+Unknown Monitor,Unknown,scada,power monitor,NA,0
+Urchin on Apache,Google,Generic,Web Application,,1
+VBrick IWS VTC,VBrick,video,VTC,NA,0
+VBrick Web TV,VBrick,video,Web TV,NA,0
+Vivotek Webcam,VivoTek,video,webcam,NA,0
+VLinx Serial Adapter,VLinx,Network,Serial to Ethernet,NA,0
+VMWare ESX,VMWare,out of band,Console,NA,0
+VMWare vCenter Converter,VMWare,out of band,Console,NA,0
+VMWare VirtualCenter,VMWare,out of band,Console,NA,0
+VMWare vSphere,VMWare,out of band,Console,NA,0
+VMWare View Portal,VMWare,out of band,console,NA,0
+Web2Py Web Application,Web2Py,Generic,Web Application,NA,0
+WebCTRL HVAC,WebCTRL,scada,HVAC,NA,0
+Websense,Websense,application,proxy,NA,0
+Western Digital Shared Storage,Western Digital,Storage,NAS,NA,0
+Western Digital ShareSpace NAS,Western Digital,Storage,NAS,NA,0
+Western Digital My Book NAS,Western Digital,Storage,NAS,NA,0
+Win VOIP System,Win,voip,softphone,,1
+Xerox FreeFlow Accxes,Xerox,Output,MFD,NA,0
+Xerox Fiery MFD,Xerox,Output,MFD,NA,0
+Xerox ColorQube Copier,Xerox,Output,Copier,NA,0
+Xerox DocuCentre,Xerox,Output,Copier,NA,0
+Xerox CentreWare MFD,Xerox,Output,MFD,NA,0
+Xerox MFD,Xerox,Output,MFD,NA,0
+Xerox Phaser MFD,Xerox,Output,MFD,,1
+Xerox Printer,Xerox,Output,Printer,NA,0
+Xerox WorkCentre MFD,Xerox,Output,MFD,NA,0
+Xerox WebPMT,Xerox,Output,Copier,NA,0
+XYTRONIX Relay,XYTRONIX,scada,relay,NA,0
+Zope Zenoss Network Monitor,Zope.org,Network,Monitor,NA,0
