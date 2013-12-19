@@ -27,7 +27,7 @@ require 'rubygems'
 begin
   require 'nwrfc'
 rescue LoadError
-  abort("[-] This module requires the NW RFC SDK ruby wrapper (http://rubygems.org/gems/nwrfc) from Martin Ceronio.")
+  abort("[x] This module requires the NW RFC SDK ruby wrapper (http://rubygems.org/gems/nwrfc) from Martin Ceronio.")
 end
 
 class Metasploit4 < Msf::Auxiliary
@@ -62,8 +62,6 @@ class Metasploit4 < Msf::Auxiliary
     if datastore['CLIENT'].nil?
       print_status("Using default SAP client list")
       client = ['000','001','066']
-      user = 'mwrlabs'
-      pass = '06071992'
     else
       client = []
         if datastore['CLIENT'] =~ /^\d{3},/
@@ -82,24 +80,26 @@ class Metasploit4 < Msf::Auxiliary
         end
     end
 
+    user = "mwrlabs"
+    pass = "06071992"
+
     rport = datastore['rport'].to_s.split('')
     sysnr = rport[2]
     sysnr << rport[3]
 
     client.each { |client|
-      enum_client(user,client,pass,datastore['rhost'],datastore['rport'],sysnr)
+    	enum_client(user,client,pass,datastore['rhost'],datastore['rport'],sysnr)
     }
   end
 
   def enum_client(user, client, pass, rhost, rport, sysnr)
     vprint_status("#{rhost}:#{rport} [SAP] Trying client: '#{client}'")
-    success = false
     ashost = rhost
     ashost = "/H/#{datastore['SRHOST']}/H/#{rhost}" if datastore['SRHOST']
-
     begin
       auth_hash = {"user" => user, "passwd" => pass, "client" => client, "ashost" => ashost, "sysnr" => sysnr}
       conn = Connection.new(auth_hash)
+      success = true
     rescue NWError => e
       case e.message.to_s
       when /not available in this system/
@@ -109,7 +109,7 @@ class Metasploit4 < Msf::Auxiliary
       when /Connection refused/
         vprint_error("#{rhost}:#{rport} [SAP] client #{client} connection refused")
       else
-        success = true
+	success = true
       end
     end
         
@@ -120,6 +120,8 @@ class Metasploit4 < Msf::Auxiliary
         :sname => 'sap-gateway',
         :proto => 'tcp',
         :port => rport,
+        :user => user,
+        :pass => pass,
         :client => client,
         :sysnr => sysnr,
         :source_type => "user_supplied",

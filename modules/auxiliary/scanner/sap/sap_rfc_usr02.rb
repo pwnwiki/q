@@ -163,3 +163,4 @@ class Metasploit4 < Msf::Auxiliary
     print_good("[SAP] #{ip}:#{rport} - codevnG hashes stored in #{loot_path}")
   end
 end
+
