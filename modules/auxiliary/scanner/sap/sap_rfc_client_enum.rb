@@ -31,16 +31,16 @@ class Metasploit4 < Msf::Auxiliary
 
   def initialize
     super(
-        'Name'        => 'SAP RFC Client Enumerator',
-        'Description' => %q{
-                       This module attempts to brute force the available SAP clients via the RFC interface.
-                       Default clients can be tested without needing to set a CLIENT.
-                       This module can execute through a SAP Router if SRHOST and SRPORT values are set.
-                       The module requires the NW RFC SDK from SAP as well as the Ruby wrapper nwrfc (http://rubygems.org/gems/nwrfc).
-                    },
-        'References'  => [[ 'URL', 'http://labs.mwrinfosecurity.com' ]],
-        'Author'      => [ 'nmonkee' ],
-        'License'     => BSD_LICENSE
+      'Name'        => 'SAP RFC Client Enumerator',
+      'Description' => %q{
+        This module attempts to brute force the available SAP clients via the RFC interface.
+        Default clients can be tested without needing to set a CLIENT.
+        This module can execute through a SAP Router if SRHOST and SRPORT values are set.
+        The module requires the NW RFC SDK from SAP as well as the Ruby wrapper nwrfc (http://rubygems.org/gems/nwrfc).
+      },
+      'References'  => [[ 'URL', 'http://labs.mwrinfosecurity.com' ]],
+      'Author'      => [ 'nmonkee' ],
+      'License'     => BSD_LICENSE
     )
 
     register_options(
